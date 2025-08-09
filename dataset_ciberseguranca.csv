@@ -1,0 +1,501 @@
+ID_Incidente,Data_Hora,Tipo_Analise,Origem_Dados,Ferramenta_Usada,Descricao_Evento,Tipo_Ameaca,Vulnerabilidade_Identificada,Acao_Tomada,Norma_Conformidade,Risco_Associado,Setor_Alvo,Status
+1,2025-01-12 06:05:48.542265,Risco Cibernético,Sistema Operacional,Splunk,Download de arquivo malicioso,Malware,Log4j,Escalonado,ISO 27001,Invasão interna,Governo,Aberto
+2,2024-11-16 00:45:48.542265,Conformidade,Servidor,QRadar,Download de arquivo malicioso,Ransomware,Shellshock,Mitigação,Nenhuma,Alto,Tecnologia,Em Andamento
+3,2025-02-15 17:14:24.542265,Eventos,Antivírus,Splunk,Acesso fora de horário,Ransomware,Nenhuma,Investigação,Nenhuma,Invasão interna,Governo,Em Andamento
+4,2025-08-05 09:20:38.542265,Risco Cibernético,Antivírus,Splunk,Tráfego de rede incomum,Malware,Log4j,Fechado,LGPD,Baixo,Saúde,Fechado
+5,2024-10-09 13:55:41.542265,Conformidade,Servidor,OpenVAS,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Investigação,Nenhuma,Roubo de dados,Saúde,Aberto
+6,2025-08-05 00:19:25.542265,Eventos,Sistema Operacional,OpenVAS,Tentativa de login falha,Ransomware,Heartbleed,Investigação,GDPR,Alto,Varejo,Aberto
+7,2025-08-02 04:50:45.542265,Conformidade,Servidor,OpenVAS,Tentativa de login falha,Malware,Nenhuma,Fechado,Nenhuma,Phishing,Varejo,Em Andamento
+8,2025-08-02 05:57:44.542265,Risco Cibernético,Firewall,Splunk,Tráfego de rede incomum,Trojan Bancário,Shellshock,Fechado,LGPD,Baixo,Saúde,Aberto
+9,2025-06-07 15:09:06.542265,Inteligência de Ameaças,Firewall,QRadar,Tráfego de rede incomum,Ransomware,Log4j,Fechado,ISO 27001,Roubo de dados,Tecnologia,Fechado
+10,2024-08-24 11:09:06.542265,Análise de Vulnerabilidades,Servidor,Nessus,Tráfego de rede incomum,Phishing,Heartbleed,Escalonado,GDPR,Alto,Governo,Fechado
+11,2024-11-14 23:43:38.542265,Tendências e Incidentes,Antivírus,Qualys,Download de arquivo malicioso,Phishing,Heartbleed,Fechado,GDPR,Invasão interna,Financeiro,Fechado
+12,2025-03-04 00:59:44.542265,Análise de Vulnerabilidades,Firewall,Qualys,Acesso fora de horário,Malware,Shellshock,Investigação,GDPR,Invasão interna,Saúde,Em Andamento
+13,2025-06-01 01:49:55.542265,Detecção de Ameaças,Antivírus,Splunk,Tentativa de login falha,Malware,Heartbleed,Fechado,ISO 27001,DDoS,Saúde,Aberto
+14,2025-04-22 21:03:13.542265,Eventos,Servidor,Nessus,Tráfego de rede incomum,Malware,Shellshock,Fechado,ISO 27001,Phishing,Governo,Aberto
+15,2024-08-18 08:15:49.542265,Conformidade,Antivírus,QRadar,Tráfego de rede incomum,Trojan Bancário,Shellshock,Fechado,ISO 27001,Baixo,Governo,Em Andamento
+16,2024-10-04 16:12:13.542265,Análise de Vulnerabilidades,Servidor,Qualys,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Fechado,LGPD,Baixo,Tecnologia,Fechado
+17,2024-10-21 19:16:07.542265,Análise Forense,Servidor,Splunk,Download de arquivo malicioso,Ransomware,Shellshock,Escalonado,GDPR,Baixo,Saúde,Aberto
+18,2024-12-14 04:47:37.542265,Eventos,Servidor,OpenVAS,Tráfego de rede incomum,Phishing,Shellshock,Mitigação,Nenhuma,Invasão interna,Tecnologia,Em Andamento
+19,2024-08-29 05:46:03.542265,Eventos,Antivírus,Splunk,Download de arquivo malicioso,Ransomware,Log4j,Mitigação,Nenhuma,Roubo de dados,Governo,Aberto
+20,2025-04-19 16:26:22.542265,Inteligência de Ameaças,Firewall,OpenVAS,Tráfego de rede incomum,Phishing,Shellshock,Mitigação,GDPR,DDoS,Financeiro,Em Andamento
+21,2025-03-12 00:33:30.542265,Tendências e Incidentes,Sistema Operacional,Nessus,Acesso fora de horário,Phishing,Heartbleed,Mitigação,LGPD,DDoS,Saúde,Em Andamento
+22,2025-03-05 21:37:34.542265,Conformidade,Servidor,Nessus,Tráfego de rede incomum,Ransomware,Log4j,Fechado,ISO 27001,Phishing,Saúde,Aberto
+23,2025-02-16 13:17:43.542265,Análise Forense,Servidor,ELK Stack,Tentativa de login falha,Phishing,Nenhuma,Escalonado,Nenhuma,DDoS,Tecnologia,Aberto
+24,2024-10-28 11:41:04.542265,Eventos,Servidor,Nessus,Acesso fora de horário,Trojan Bancário,Nenhuma,Mitigação,LGPD,Baixo,Saúde,Aberto
+25,2024-09-02 00:06:48.542265,Tendências e Incidentes,Servidor,Nessus,Acesso fora de horário,Trojan Bancário,Nenhuma,Investigação,ISO 27001,Baixo,Governo,Em Andamento
+26,2025-04-28 19:40:03.542265,Conformidade,Servidor,Splunk,Tráfego de rede incomum,Ransomware,Shellshock,Escalonado,GDPR,Baixo,Varejo,Fechado
+27,2025-01-30 00:18:21.542265,Conformidade,Antivírus,ELK Stack,Acesso fora de horário,Malware,Shellshock,Fechado,LGPD,Alto,Financeiro,Aberto
+28,2025-03-19 06:29:53.542265,Risco Cibernético,Antivírus,OpenVAS,Download de arquivo malicioso,Ransomware,Nenhuma,Investigação,Nenhuma,Baixo,Varejo,Aberto
+29,2024-10-31 09:39:50.542265,Conformidade,Antivírus,Splunk,Acesso fora de horário,Malware,Heartbleed,Fechado,LGPD,Roubo de dados,Financeiro,Fechado
+30,2025-03-05 04:36:38.542265,Análise Forense,Antivírus,QRadar,Download de arquivo malicioso,Phishing,CVE-2017-11882,Fechado,GDPR,Invasão interna,Governo,Fechado
+31,2024-11-18 12:56:17.542265,Eventos,Servidor,OpenVAS,Acesso fora de horário,Trojan Bancário,CVE-2017-11882,Fechado,Nenhuma,Roubo de dados,Governo,Aberto
+32,2024-12-21 04:38:58.542265,Risco Cibernético,Servidor,Splunk,Tráfego de rede incomum,Malware,Nenhuma,Escalonado,Nenhuma,Invasão interna,Financeiro,Fechado
+33,2025-05-26 07:26:56.542265,Análise Forense,Antivírus,QRadar,Acesso fora de horário,Malware,Nenhuma,Mitigação,GDPR,Alto,Governo,Aberto
+34,2024-09-11 19:31:18.542265,Inteligência de Ameaças,Servidor,QRadar,Tráfego de rede incomum,Phishing,Log4j,Investigação,Nenhuma,DDoS,Governo,Fechado
+35,2024-11-18 16:46:59.542265,Análise de Vulnerabilidades,Sistema Operacional,OpenVAS,Tentativa de login falha,Phishing,Nenhuma,Mitigação,ISO 27001,Roubo de dados,Financeiro,Em Andamento
+36,2025-07-28 02:21:25.542265,Detecção de Ameaças,Sistema Operacional,QRadar,Acesso fora de horário,Ransomware,Shellshock,Escalonado,Nenhuma,Médio,Tecnologia,Aberto
+37,2025-02-17 15:03:05.542265,Eventos,Firewall,Nessus,Tráfego de rede incomum,Ransomware,Log4j,Mitigação,LGPD,Médio,Financeiro,Aberto
+38,2024-12-21 20:52:41.542265,Risco Cibernético,Servidor,OpenVAS,Tentativa de login falha,Phishing,CVE-2017-11882,Mitigação,GDPR,Invasão interna,Saúde,Em Andamento
+39,2025-03-29 03:16:36.542265,Eventos,Antivírus,OpenVAS,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Investigação,ISO 27001,Invasão interna,Saúde,Fechado
+40,2025-01-14 05:21:51.542265,Análise de Vulnerabilidades,Servidor,OpenVAS,Tráfego de rede incomum,Phishing,Heartbleed,Investigação,LGPD,DDoS,Tecnologia,Fechado
+41,2025-06-23 05:00:12.542265,Risco Cibernético,Antivírus,Splunk,Download de arquivo malicioso,Phishing,Log4j,Escalonado,GDPR,Baixo,Financeiro,Em Andamento
+42,2025-01-29 18:26:25.542265,Conformidade,Servidor,QRadar,Tentativa de login falha,Trojan Bancário,Heartbleed,Escalonado,GDPR,Invasão interna,Saúde,Aberto
+43,2025-06-19 13:42:01.542265,Detecção de Ameaças,Firewall,QRadar,Download de arquivo malicioso,Trojan Bancário,Log4j,Mitigação,GDPR,Invasão interna,Varejo,Fechado
+44,2024-10-06 17:29:51.542265,Detecção de Ameaças,Firewall,Splunk,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Escalonado,Nenhuma,Roubo de dados,Governo,Em Andamento
+45,2025-04-15 08:19:33.542265,Eventos,Servidor,Nessus,Acesso fora de horário,Trojan Bancário,Heartbleed,Escalonado,ISO 27001,Invasão interna,Saúde,Em Andamento
+46,2024-09-19 21:02:31.542265,Risco Cibernético,Servidor,QRadar,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Mitigação,GDPR,DDoS,Varejo,Em Andamento
+47,2025-07-01 05:47:09.542265,Análise Forense,Antivírus,Splunk,Download de arquivo malicioso,Phishing,CVE-2017-11882,Investigação,GDPR,Alto,Varejo,Em Andamento
+48,2024-12-10 06:01:39.542265,Análise Forense,Firewall,Splunk,Acesso fora de horário,Ransomware,Log4j,Investigação,LGPD,Invasão interna,Governo,Fechado
+49,2025-04-02 05:36:48.542265,Conformidade,Sistema Operacional,Qualys,Download de arquivo malicioso,Malware,Nenhuma,Escalonado,GDPR,Invasão interna,Financeiro,Aberto
+50,2025-03-31 04:37:31.542265,Análise Forense,Firewall,Nessus,Tentativa de login falha,Ransomware,Shellshock,Fechado,GDPR,Roubo de dados,Tecnologia,Em Andamento
+51,2025-05-21 01:56:33.542265,Tendências e Incidentes,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Fechado,LGPD,Médio,Financeiro,Fechado
+52,2024-10-22 14:26:59.542265,Detecção de Ameaças,Firewall,ELK Stack,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Mitigação,ISO 27001,Médio,Governo,Fechado
+53,2025-01-15 09:28:56.542265,Análise de Vulnerabilidades,Firewall,OpenVAS,Tráfego de rede incomum,Malware,Heartbleed,Fechado,ISO 27001,Invasão interna,Tecnologia,Aberto
+54,2025-01-15 19:33:26.542265,Conformidade,Servidor,OpenVAS,Tentativa de login falha,Trojan Bancário,Shellshock,Investigação,Nenhuma,Médio,Saúde,Fechado
+55,2024-09-02 12:36:04.542265,Análise Forense,Servidor,Qualys,Acesso fora de horário,Malware,Heartbleed,Escalonado,GDPR,Phishing,Varejo,Em Andamento
+56,2025-06-13 04:21:53.542265,Análise de Vulnerabilidades,Antivírus,Splunk,Tentativa de login falha,Phishing,Nenhuma,Fechado,Nenhuma,DDoS,Varejo,Em Andamento
+57,2025-08-03 18:28:59.542265,Análise Forense,Antivírus,Qualys,Download de arquivo malicioso,Ransomware,Shellshock,Escalonado,GDPR,Invasão interna,Governo,Aberto
+58,2024-09-18 17:48:40.542265,Risco Cibernético,Sistema Operacional,QRadar,Tráfego de rede incomum,Malware,Heartbleed,Escalonado,LGPD,DDoS,Varejo,Aberto
+59,2024-12-03 15:41:06.542265,Conformidade,Servidor,Splunk,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Fechado,GDPR,Roubo de dados,Governo,Aberto
+60,2025-02-03 16:03:52.542265,Análise Forense,Sistema Operacional,Splunk,Acesso fora de horário,Ransomware,CVE-2017-11882,Escalonado,ISO 27001,Roubo de dados,Financeiro,Em Andamento
+61,2024-10-21 03:10:21.542265,Tendências e Incidentes,Servidor,QRadar,Tráfego de rede incomum,Malware,Shellshock,Investigação,GDPR,Baixo,Saúde,Aberto
+62,2025-02-04 18:01:34.542265,Análise Forense,Servidor,Qualys,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Escalonado,Nenhuma,Baixo,Governo,Em Andamento
+63,2024-08-19 05:43:13.542265,Eventos,Sistema Operacional,Nessus,Tentativa de login falha,Ransomware,Heartbleed,Escalonado,LGPD,Médio,Tecnologia,Aberto
+64,2024-09-29 02:26:39.542265,Inteligência de Ameaças,Firewall,Splunk,Tentativa de login falha,Malware,Nenhuma,Escalonado,Nenhuma,Baixo,Governo,Em Andamento
+65,2024-11-26 09:38:28.542265,Conformidade,Sistema Operacional,OpenVAS,Tráfego de rede incomum,Trojan Bancário,CVE-2017-11882,Fechado,ISO 27001,Baixo,Saúde,Aberto
+66,2025-04-29 09:34:27.542265,Detecção de Ameaças,Firewall,Nessus,Tráfego de rede incomum,Malware,Shellshock,Escalonado,LGPD,Médio,Saúde,Em Andamento
+67,2025-01-06 12:25:52.542265,Análise Forense,Servidor,Qualys,Acesso fora de horário,Trojan Bancário,Heartbleed,Escalonado,Nenhuma,Roubo de dados,Tecnologia,Em Andamento
+68,2024-12-23 02:46:59.542265,Análise de Vulnerabilidades,Antivírus,QRadar,Acesso fora de horário,Malware,Log4j,Escalonado,ISO 27001,Invasão interna,Saúde,Em Andamento
+69,2025-03-04 02:15:43.542265,Inteligência de Ameaças,Servidor,Nessus,Tráfego de rede incomum,Phishing,Nenhuma,Fechado,LGPD,DDoS,Varejo,Em Andamento
+70,2025-06-24 04:59:14.542265,Detecção de Ameaças,Firewall,OpenVAS,Tentativa de login falha,Ransomware,CVE-2017-11882,Escalonado,ISO 27001,Phishing,Financeiro,Fechado
+71,2025-03-20 06:02:49.542265,Análise de Vulnerabilidades,Sistema Operacional,Nessus,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Mitigação,Nenhuma,DDoS,Governo,Aberto
+72,2025-07-13 23:11:16.542265,Análise Forense,Firewall,Nessus,Tráfego de rede incomum,Phishing,Nenhuma,Fechado,Nenhuma,Baixo,Governo,Em Andamento
+73,2025-04-08 21:22:11.542265,Inteligência de Ameaças,Antivírus,Splunk,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Escalonado,LGPD,Médio,Tecnologia,Aberto
+74,2024-12-04 08:10:16.542265,Conformidade,Sistema Operacional,OpenVAS,Acesso fora de horário,Phishing,CVE-2017-11882,Fechado,GDPR,Invasão interna,Financeiro,Em Andamento
+75,2025-06-08 03:27:30.542265,Eventos,Sistema Operacional,QRadar,Acesso fora de horário,Ransomware,Heartbleed,Mitigação,GDPR,Phishing,Varejo,Aberto
+76,2024-09-05 01:37:48.542265,Conformidade,Firewall,Nessus,Tráfego de rede incomum,Malware,Heartbleed,Investigação,LGPD,Invasão interna,Saúde,Aberto
+77,2025-03-12 14:26:49.542265,Eventos,Antivírus,QRadar,Acesso fora de horário,Phishing,Heartbleed,Mitigação,Nenhuma,Roubo de dados,Tecnologia,Em Andamento
+78,2025-04-12 06:43:22.542265,Risco Cibernético,Sistema Operacional,Splunk,Tráfego de rede incomum,Trojan Bancário,Log4j,Investigação,ISO 27001,Baixo,Saúde,Aberto
+79,2025-04-17 18:58:34.542265,Risco Cibernético,Sistema Operacional,ELK Stack,Tentativa de login falha,Phishing,Nenhuma,Mitigação,ISO 27001,Roubo de dados,Governo,Em Andamento
+80,2025-06-17 15:49:17.542265,Análise de Vulnerabilidades,Antivírus,OpenVAS,Tráfego de rede incomum,Ransomware,Heartbleed,Fechado,ISO 27001,Invasão interna,Varejo,Aberto
+81,2025-07-14 01:59:37.542265,Tendências e Incidentes,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Investigação,LGPD,DDoS,Saúde,Fechado
+82,2024-08-16 13:27:37.542265,Eventos,Sistema Operacional,OpenVAS,Acesso fora de horário,Trojan Bancário,Shellshock,Mitigação,LGPD,Invasão interna,Governo,Fechado
+83,2025-02-28 06:11:33.542265,Tendências e Incidentes,Antivírus,Qualys,Tráfego de rede incomum,Ransomware,Log4j,Fechado,GDPR,Invasão interna,Financeiro,Em Andamento
+84,2025-05-18 13:09:12.542265,Eventos,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Trojan Bancário,CVE-2017-11882,Fechado,ISO 27001,Alto,Varejo,Aberto
+85,2024-12-02 07:14:42.542265,Conformidade,Firewall,Nessus,Acesso fora de horário,Phishing,Log4j,Investigação,ISO 27001,Invasão interna,Financeiro,Em Andamento
+86,2025-04-20 12:18:11.542265,Conformidade,Firewall,ELK Stack,Acesso fora de horário,Ransomware,Nenhuma,Mitigação,ISO 27001,Invasão interna,Varejo,Fechado
+87,2024-12-21 22:17:25.542265,Análise de Vulnerabilidades,Firewall,Qualys,Tentativa de login falha,Ransomware,Heartbleed,Escalonado,LGPD,Baixo,Financeiro,Em Andamento
+88,2024-12-02 11:54:27.542265,Conformidade,Antivírus,Nessus,Acesso fora de horário,Trojan Bancário,Heartbleed,Investigação,Nenhuma,Baixo,Financeiro,Em Andamento
+89,2025-03-28 04:11:49.542265,Análise Forense,Antivírus,Splunk,Tentativa de login falha,Trojan Bancário,Heartbleed,Fechado,Nenhuma,Phishing,Governo,Em Andamento
+90,2025-05-18 13:50:26.542265,Detecção de Ameaças,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Phishing,Log4j,Escalonado,GDPR,Alto,Saúde,Em Andamento
+91,2025-03-27 16:50:14.542265,Análise de Vulnerabilidades,Antivírus,Splunk,Acesso fora de horário,Ransomware,Log4j,Fechado,Nenhuma,DDoS,Tecnologia,Fechado
+92,2024-11-23 18:43:55.542265,Análise de Vulnerabilidades,Servidor,Nessus,Tráfego de rede incomum,Ransomware,Log4j,Investigação,GDPR,DDoS,Tecnologia,Em Andamento
+93,2025-01-01 19:25:18.542265,Eventos,Firewall,Splunk,Download de arquivo malicioso,Phishing,Heartbleed,Fechado,Nenhuma,DDoS,Varejo,Aberto
+94,2024-09-04 05:16:31.542265,Tendências e Incidentes,Firewall,QRadar,Acesso fora de horário,Trojan Bancário,Nenhuma,Fechado,GDPR,Baixo,Saúde,Em Andamento
+95,2025-04-22 19:08:09.542265,Análise de Vulnerabilidades,Firewall,ELK Stack,Download de arquivo malicioso,Trojan Bancário,Shellshock,Escalonado,Nenhuma,Médio,Saúde,Em Andamento
+96,2024-09-23 00:06:56.542265,Eventos,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Phishing,Nenhuma,Mitigação,Nenhuma,Médio,Varejo,Aberto
+97,2025-04-08 11:02:46.542265,Análise Forense,Antivírus,QRadar,Tentativa de login falha,Ransomware,Heartbleed,Escalonado,ISO 27001,Phishing,Financeiro,Fechado
+98,2024-09-18 21:30:04.542265,Risco Cibernético,Servidor,ELK Stack,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Investigação,LGPD,Alto,Financeiro,Fechado
+99,2025-04-01 05:28:55.542265,Conformidade,Servidor,Splunk,Tentativa de login falha,Malware,Shellshock,Escalonado,LGPD,Phishing,Varejo,Aberto
+100,2024-09-27 17:03:34.542265,Tendências e Incidentes,Servidor,Splunk,Tentativa de login falha,Trojan Bancário,Log4j,Investigação,ISO 27001,Phishing,Varejo,Aberto
+101,2025-04-07 13:57:33.542265,Análise de Vulnerabilidades,Sistema Operacional,ELK Stack,Acesso fora de horário,Ransomware,Shellshock,Investigação,ISO 27001,Roubo de dados,Saúde,Fechado
+102,2024-11-10 12:20:26.542265,Análise Forense,Servidor,Qualys,Tentativa de login falha,Ransomware,CVE-2017-11882,Escalonado,LGPD,Roubo de dados,Governo,Aberto
+103,2025-07-06 21:25:20.542265,Análise de Vulnerabilidades,Sistema Operacional,OpenVAS,Tentativa de login falha,Trojan Bancário,Shellshock,Mitigação,LGPD,Médio,Varejo,Em Andamento
+104,2025-04-16 21:31:36.542265,Risco Cibernético,Antivírus,ELK Stack,Acesso fora de horário,Phishing,Log4j,Fechado,GDPR,Invasão interna,Saúde,Fechado
+105,2024-11-15 03:02:45.542265,Análise de Vulnerabilidades,Sistema Operacional,Qualys,Tráfego de rede incomum,Trojan Bancário,Log4j,Escalonado,ISO 27001,Phishing,Governo,Aberto
+106,2025-03-02 18:02:15.542265,Eventos,Sistema Operacional,Nessus,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Fechado,Nenhuma,DDoS,Saúde,Fechado
+107,2025-04-01 04:33:29.542265,Conformidade,Firewall,Splunk,Tráfego de rede incomum,Malware,Heartbleed,Mitigação,GDPR,Phishing,Financeiro,Aberto
+108,2025-04-23 20:21:52.542265,Risco Cibernético,Servidor,QRadar,Acesso fora de horário,Ransomware,CVE-2017-11882,Escalonado,GDPR,Phishing,Governo,Em Andamento
+109,2025-06-19 12:21:00.542265,Eventos,Antivírus,OpenVAS,Acesso fora de horário,Ransomware,Log4j,Fechado,Nenhuma,DDoS,Tecnologia,Em Andamento
+110,2024-11-29 14:31:03.542265,Conformidade,Firewall,ELK Stack,Download de arquivo malicioso,Phishing,Heartbleed,Mitigação,GDPR,Baixo,Varejo,Aberto
+111,2024-09-27 01:25:35.542265,Conformidade,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Phishing,Heartbleed,Investigação,GDPR,Phishing,Tecnologia,Em Andamento
+112,2025-02-15 08:36:57.542265,Inteligência de Ameaças,Sistema Operacional,QRadar,Tentativa de login falha,Ransomware,Heartbleed,Escalonado,ISO 27001,Baixo,Varejo,Aberto
+113,2025-07-02 15:35:41.542265,Análise de Vulnerabilidades,Sistema Operacional,QRadar,Download de arquivo malicioso,Phishing,Heartbleed,Fechado,LGPD,Baixo,Governo,Em Andamento
+114,2024-11-04 13:46:38.542265,Detecção de Ameaças,Firewall,ELK Stack,Download de arquivo malicioso,Ransomware,Nenhuma,Fechado,LGPD,Médio,Saúde,Fechado
+115,2024-11-09 14:28:00.542265,Análise de Vulnerabilidades,Servidor,Qualys,Download de arquivo malicioso,Ransomware,Shellshock,Escalonado,Nenhuma,Médio,Saúde,Fechado
+116,2025-02-04 03:14:03.542265,Risco Cibernético,Sistema Operacional,Qualys,Tentativa de login falha,Trojan Bancário,Heartbleed,Mitigação,Nenhuma,Médio,Tecnologia,Aberto
+117,2024-10-15 04:28:19.542265,Detecção de Ameaças,Firewall,ELK Stack,Tentativa de login falha,Malware,CVE-2017-11882,Mitigação,GDPR,DDoS,Tecnologia,Aberto
+118,2025-05-18 01:27:42.542265,Análise Forense,Sistema Operacional,QRadar,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Fechado,LGPD,Alto,Governo,Em Andamento
+119,2025-02-25 00:59:03.542265,Tendências e Incidentes,Firewall,Qualys,Tentativa de login falha,Malware,Nenhuma,Mitigação,GDPR,Invasão interna,Tecnologia,Fechado
+120,2025-03-16 04:07:48.542265,Risco Cibernético,Servidor,QRadar,Acesso fora de horário,Phishing,Log4j,Mitigação,LGPD,Phishing,Governo,Aberto
+121,2025-03-09 13:19:13.542265,Tendências e Incidentes,Sistema Operacional,Nessus,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Fechado,Nenhuma,Médio,Saúde,Aberto
+122,2025-06-26 05:11:59.542265,Tendências e Incidentes,Antivírus,Splunk,Tráfego de rede incomum,Malware,Heartbleed,Escalonado,GDPR,Alto,Saúde,Em Andamento
+123,2024-12-24 14:59:57.542265,Eventos,Firewall,ELK Stack,Acesso fora de horário,Phishing,Shellshock,Fechado,LGPD,DDoS,Saúde,Em Andamento
+124,2025-06-21 19:20:53.542265,Tendências e Incidentes,Servidor,Nessus,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Mitigação,ISO 27001,Baixo,Saúde,Fechado
+125,2024-09-30 15:09:15.542265,Inteligência de Ameaças,Sistema Operacional,Splunk,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Mitigação,GDPR,Roubo de dados,Varejo,Aberto
+126,2024-11-24 01:55:22.542265,Risco Cibernético,Antivírus,Qualys,Acesso fora de horário,Trojan Bancário,Nenhuma,Fechado,ISO 27001,DDoS,Tecnologia,Fechado
+127,2024-11-02 18:16:03.542265,Análise Forense,Servidor,ELK Stack,Tráfego de rede incomum,Ransomware,Shellshock,Investigação,Nenhuma,DDoS,Financeiro,Fechado
+128,2025-01-20 16:07:42.542265,Risco Cibernético,Servidor,Qualys,Tráfego de rede incomum,Malware,Heartbleed,Fechado,Nenhuma,Phishing,Financeiro,Em Andamento
+129,2024-10-30 07:21:04.542265,Eventos,Firewall,OpenVAS,Tentativa de login falha,Ransomware,Log4j,Fechado,Nenhuma,Phishing,Tecnologia,Em Andamento
+130,2025-02-25 18:33:22.542265,Inteligência de Ameaças,Servidor,Qualys,Tentativa de login falha,Phishing,Shellshock,Escalonado,LGPD,Baixo,Tecnologia,Aberto
+131,2025-04-27 07:54:19.542265,Tendências e Incidentes,Sistema Operacional,OpenVAS,Tráfego de rede incomum,Phishing,Log4j,Mitigação,GDPR,Médio,Governo,Fechado
+132,2025-04-12 07:52:43.542265,Conformidade,Firewall,ELK Stack,Download de arquivo malicioso,Ransomware,Nenhuma,Escalonado,Nenhuma,Baixo,Financeiro,Fechado
+133,2024-12-06 05:22:32.542265,Detecção de Ameaças,Servidor,Qualys,Tentativa de login falha,Ransomware,Log4j,Mitigação,GDPR,Invasão interna,Saúde,Em Andamento
+134,2025-07-04 09:13:38.542265,Detecção de Ameaças,Antivírus,OpenVAS,Acesso fora de horário,Malware,Heartbleed,Investigação,Nenhuma,Invasão interna,Governo,Aberto
+135,2025-07-26 09:14:15.542265,Tendências e Incidentes,Servidor,QRadar,Acesso fora de horário,Phishing,Heartbleed,Escalonado,Nenhuma,Roubo de dados,Governo,Fechado
+136,2025-05-14 17:18:53.542265,Eventos,Servidor,ELK Stack,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Investigação,GDPR,DDoS,Tecnologia,Em Andamento
+137,2024-08-18 14:04:58.542265,Conformidade,Sistema Operacional,Nessus,Tentativa de login falha,Malware,Log4j,Investigação,Nenhuma,DDoS,Financeiro,Aberto
+138,2024-12-27 16:37:20.542265,Análise de Vulnerabilidades,Sistema Operacional,Qualys,Download de arquivo malicioso,Ransomware,Heartbleed,Investigação,Nenhuma,Phishing,Saúde,Em Andamento
+139,2025-07-24 21:51:17.542265,Detecção de Ameaças,Servidor,QRadar,Acesso fora de horário,Trojan Bancário,Log4j,Fechado,GDPR,Médio,Varejo,Fechado
+140,2025-02-23 12:13:21.542265,Risco Cibernético,Servidor,OpenVAS,Tráfego de rede incomum,Malware,Nenhuma,Fechado,GDPR,Médio,Tecnologia,Aberto
+141,2025-05-03 18:28:47.542265,Detecção de Ameaças,Servidor,Nessus,Tráfego de rede incomum,Phishing,Nenhuma,Investigação,ISO 27001,Alto,Saúde,Aberto
+142,2024-11-13 12:36:17.542265,Inteligência de Ameaças,Servidor,OpenVAS,Tráfego de rede incomum,Ransomware,Nenhuma,Investigação,GDPR,Baixo,Saúde,Aberto
+143,2025-06-20 20:10:05.542265,Eventos,Sistema Operacional,Splunk,Acesso fora de horário,Trojan Bancário,Heartbleed,Fechado,LGPD,Baixo,Governo,Em Andamento
+144,2024-12-22 18:32:23.542265,Análise Forense,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Trojan Bancário,Log4j,Mitigação,Nenhuma,Alto,Financeiro,Aberto
+145,2025-07-11 09:05:06.542265,Inteligência de Ameaças,Firewall,Splunk,Acesso fora de horário,Ransomware,Nenhuma,Investigação,Nenhuma,Phishing,Saúde,Aberto
+146,2024-10-24 10:30:55.542265,Conformidade,Antivírus,OpenVAS,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Fechado,ISO 27001,Invasão interna,Financeiro,Em Andamento
+147,2024-12-16 09:40:04.542265,Detecção de Ameaças,Firewall,Qualys,Download de arquivo malicioso,Malware,Nenhuma,Mitigação,ISO 27001,Invasão interna,Financeiro,Aberto
+148,2025-05-25 05:04:54.542265,Risco Cibernético,Antivírus,Qualys,Tentativa de login falha,Trojan Bancário,Nenhuma,Escalonado,Nenhuma,Baixo,Tecnologia,Em Andamento
+149,2025-04-09 02:38:31.542265,Análise de Vulnerabilidades,Antivírus,Splunk,Download de arquivo malicioso,Phishing,Nenhuma,Investigação,GDPR,Baixo,Financeiro,Em Andamento
+150,2024-09-08 21:33:33.542265,Detecção de Ameaças,Servidor,Splunk,Tentativa de login falha,Malware,Log4j,Escalonado,LGPD,Baixo,Varejo,Em Andamento
+151,2024-09-05 07:07:04.542265,Risco Cibernético,Servidor,Splunk,Acesso fora de horário,Phishing,CVE-2017-11882,Fechado,ISO 27001,Invasão interna,Tecnologia,Fechado
+152,2025-05-24 11:42:12.542265,Inteligência de Ameaças,Firewall,OpenVAS,Download de arquivo malicioso,Ransomware,Shellshock,Escalonado,GDPR,Roubo de dados,Varejo,Em Andamento
+153,2024-10-28 10:06:00.542265,Conformidade,Servidor,Qualys,Download de arquivo malicioso,Ransomware,Shellshock,Escalonado,ISO 27001,Invasão interna,Varejo,Fechado
+154,2024-12-24 18:52:48.542265,Análise Forense,Firewall,Nessus,Tráfego de rede incomum,Malware,Shellshock,Escalonado,Nenhuma,Médio,Tecnologia,Em Andamento
+155,2024-09-11 11:47:07.542265,Análise Forense,Sistema Operacional,Qualys,Download de arquivo malicioso,Phishing,Heartbleed,Escalonado,Nenhuma,Médio,Saúde,Fechado
+156,2025-01-20 12:00:37.542265,Análise de Vulnerabilidades,Servidor,Nessus,Tentativa de login falha,Phishing,CVE-2017-11882,Investigação,GDPR,Baixo,Financeiro,Fechado
+157,2024-08-23 09:08:20.542265,Conformidade,Firewall,Nessus,Tentativa de login falha,Malware,Nenhuma,Investigação,ISO 27001,Alto,Saúde,Em Andamento
+158,2025-06-09 11:11:36.542265,Inteligência de Ameaças,Firewall,Splunk,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Mitigação,Nenhuma,Roubo de dados,Governo,Fechado
+159,2024-10-02 23:12:39.542265,Risco Cibernético,Servidor,Splunk,Acesso fora de horário,Malware,Shellshock,Fechado,ISO 27001,DDoS,Saúde,Fechado
+160,2025-06-09 04:32:57.542265,Inteligência de Ameaças,Sistema Operacional,Qualys,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Escalonado,Nenhuma,Alto,Financeiro,Aberto
+161,2025-02-26 17:51:09.542265,Tendências e Incidentes,Sistema Operacional,Nessus,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Escalonado,LGPD,Phishing,Tecnologia,Aberto
+162,2025-01-05 17:22:59.542265,Inteligência de Ameaças,Sistema Operacional,QRadar,Acesso fora de horário,Phishing,Heartbleed,Investigação,Nenhuma,Médio,Varejo,Aberto
+163,2024-12-20 13:48:03.542265,Análise de Vulnerabilidades,Antivírus,Splunk,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Fechado,Nenhuma,Baixo,Financeiro,Fechado
+164,2025-08-03 05:40:12.542265,Inteligência de Ameaças,Sistema Operacional,Qualys,Tráfego de rede incomum,Trojan Bancário,Nenhuma,Mitigação,LGPD,Roubo de dados,Varejo,Aberto
+165,2025-01-12 04:21:48.542265,Risco Cibernético,Firewall,ELK Stack,Acesso fora de horário,Trojan Bancário,Heartbleed,Escalonado,Nenhuma,Roubo de dados,Financeiro,Fechado
+166,2025-03-28 02:04:15.542265,Eventos,Servidor,Nessus,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Investigação,LGPD,Baixo,Tecnologia,Aberto
+167,2025-08-05 13:29:35.542265,Inteligência de Ameaças,Sistema Operacional,ELK Stack,Tentativa de login falha,Phishing,Nenhuma,Mitigação,Nenhuma,Phishing,Tecnologia,Fechado
+168,2025-07-09 17:41:42.542265,Tendências e Incidentes,Antivírus,Splunk,Tentativa de login falha,Phishing,Log4j,Mitigação,ISO 27001,DDoS,Tecnologia,Aberto
+169,2025-05-10 05:23:03.542265,Inteligência de Ameaças,Servidor,Nessus,Tentativa de login falha,Phishing,Heartbleed,Escalonado,Nenhuma,DDoS,Governo,Fechado
+170,2024-10-01 14:48:56.542265,Risco Cibernético,Antivírus,ELK Stack,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Fechado,GDPR,Alto,Varejo,Aberto
+171,2024-09-05 18:29:18.542265,Análise Forense,Firewall,Splunk,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Investigação,ISO 27001,Roubo de dados,Financeiro,Fechado
+172,2024-10-25 08:15:34.542265,Tendências e Incidentes,Antivírus,Qualys,Download de arquivo malicioso,Phishing,CVE-2017-11882,Investigação,GDPR,Invasão interna,Varejo,Em Andamento
+173,2024-11-05 01:42:14.542265,Eventos,Sistema Operacional,Splunk,Tráfego de rede incomum,Malware,Heartbleed,Investigação,LGPD,Médio,Governo,Em Andamento
+174,2025-01-24 06:42:52.542265,Detecção de Ameaças,Firewall,OpenVAS,Tentativa de login falha,Trojan Bancário,Log4j,Mitigação,Nenhuma,Phishing,Tecnologia,Fechado
+175,2025-01-13 15:10:15.542265,Eventos,Sistema Operacional,Qualys,Tráfego de rede incomum,Trojan Bancário,Shellshock,Investigação,ISO 27001,Phishing,Financeiro,Aberto
+176,2025-06-19 16:54:12.542265,Tendências e Incidentes,Firewall,ELK Stack,Tentativa de login falha,Trojan Bancário,CVE-2017-11882,Investigação,GDPR,Baixo,Varejo,Fechado
+177,2025-03-31 21:57:16.542265,Conformidade,Sistema Operacional,ELK Stack,Acesso fora de horário,Trojan Bancário,Shellshock,Mitigação,GDPR,Invasão interna,Financeiro,Fechado
+178,2024-08-30 18:54:01.542265,Análise de Vulnerabilidades,Sistema Operacional,QRadar,Download de arquivo malicioso,Malware,Log4j,Escalonado,GDPR,Roubo de dados,Tecnologia,Aberto
+179,2025-04-11 19:15:27.542265,Análise Forense,Antivírus,QRadar,Acesso fora de horário,Phishing,Log4j,Mitigação,GDPR,Phishing,Financeiro,Em Andamento
+180,2024-09-16 00:36:28.542265,Conformidade,Sistema Operacional,Qualys,Acesso fora de horário,Malware,CVE-2017-11882,Fechado,ISO 27001,Alto,Financeiro,Em Andamento
+181,2025-02-09 20:54:47.542265,Detecção de Ameaças,Sistema Operacional,Nessus,Download de arquivo malicioso,Phishing,Log4j,Mitigação,GDPR,Roubo de dados,Saúde,Aberto
+182,2024-12-29 22:15:33.542265,Risco Cibernético,Servidor,OpenVAS,Acesso fora de horário,Ransomware,Nenhuma,Escalonado,Nenhuma,Médio,Financeiro,Em Andamento
+183,2024-11-21 11:04:25.542265,Inteligência de Ameaças,Servidor,Splunk,Acesso fora de horário,Ransomware,Log4j,Escalonado,LGPD,Baixo,Varejo,Fechado
+184,2024-08-21 21:48:26.542265,Análise de Vulnerabilidades,Servidor,Qualys,Tráfego de rede incomum,Phishing,Nenhuma,Fechado,ISO 27001,Médio,Financeiro,Fechado
+185,2024-09-17 19:09:06.542265,Inteligência de Ameaças,Sistema Operacional,QRadar,Acesso fora de horário,Phishing,CVE-2017-11882,Investigação,LGPD,Médio,Varejo,Fechado
+186,2024-11-20 17:57:08.542265,Risco Cibernético,Sistema Operacional,Splunk,Tráfego de rede incomum,Ransomware,Nenhuma,Escalonado,ISO 27001,Médio,Financeiro,Aberto
+187,2024-11-27 08:03:32.542265,Análise de Vulnerabilidades,Firewall,Nessus,Acesso fora de horário,Malware,Heartbleed,Investigação,LGPD,Invasão interna,Governo,Fechado
+188,2024-10-03 19:47:28.542265,Eventos,Sistema Operacional,Qualys,Tráfego de rede incomum,Trojan Bancário,Log4j,Mitigação,ISO 27001,Roubo de dados,Financeiro,Em Andamento
+189,2025-04-21 06:39:48.542265,Detecção de Ameaças,Firewall,OpenVAS,Download de arquivo malicioso,Phishing,Log4j,Fechado,GDPR,Roubo de dados,Financeiro,Aberto
+190,2024-12-16 08:29:22.542265,Análise de Vulnerabilidades,Sistema Operacional,Nessus,Download de arquivo malicioso,Malware,CVE-2017-11882,Investigação,GDPR,DDoS,Governo,Fechado
+191,2025-04-20 12:25:32.542265,Análise de Vulnerabilidades,Firewall,QRadar,Tráfego de rede incomum,Phishing,Shellshock,Fechado,Nenhuma,Médio,Financeiro,Aberto
+192,2025-06-18 01:41:33.542265,Análise Forense,Sistema Operacional,QRadar,Tentativa de login falha,Phishing,Heartbleed,Investigação,Nenhuma,Invasão interna,Varejo,Em Andamento
+193,2024-10-19 02:08:23.542265,Tendências e Incidentes,Firewall,Qualys,Download de arquivo malicioso,Malware,Nenhuma,Escalonado,GDPR,DDoS,Saúde,Fechado
+194,2025-07-15 13:26:45.542265,Inteligência de Ameaças,Firewall,Splunk,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Investigação,Nenhuma,Invasão interna,Governo,Fechado
+195,2025-03-06 01:57:37.542265,Tendências e Incidentes,Firewall,Splunk,Acesso fora de horário,Trojan Bancário,Nenhuma,Investigação,GDPR,Roubo de dados,Financeiro,Aberto
+196,2024-12-26 07:41:13.542265,Análise Forense,Sistema Operacional,OpenVAS,Download de arquivo malicioso,Malware,Shellshock,Escalonado,ISO 27001,Roubo de dados,Governo,Em Andamento
+197,2025-01-04 16:21:29.542265,Análise de Vulnerabilidades,Servidor,Nessus,Tentativa de login falha,Ransomware,Log4j,Mitigação,ISO 27001,Baixo,Financeiro,Fechado
+198,2025-02-06 23:48:36.542265,Inteligência de Ameaças,Servidor,QRadar,Tráfego de rede incomum,Phishing,CVE-2017-11882,Mitigação,Nenhuma,Alto,Tecnologia,Aberto
+199,2024-10-05 19:58:11.542265,Inteligência de Ameaças,Antivírus,QRadar,Tráfego de rede incomum,Ransomware,Log4j,Investigação,LGPD,Phishing,Varejo,Em Andamento
+200,2025-02-06 18:21:02.542265,Tendências e Incidentes,Firewall,Qualys,Tráfego de rede incomum,Phishing,Shellshock,Investigação,GDPR,Médio,Tecnologia,Em Andamento
+201,2025-02-14 01:44:32.542265,Risco Cibernético,Servidor,ELK Stack,Download de arquivo malicioso,Phishing,CVE-2017-11882,Escalonado,ISO 27001,Invasão interna,Governo,Aberto
+202,2024-08-12 16:19:10.542265,Análise de Vulnerabilidades,Servidor,ELK Stack,Acesso fora de horário,Phishing,Shellshock,Escalonado,LGPD,Baixo,Tecnologia,Em Andamento
+203,2025-06-02 19:13:32.542265,Análise de Vulnerabilidades,Servidor,QRadar,Tentativa de login falha,Trojan Bancário,Heartbleed,Investigação,Nenhuma,Médio,Varejo,Em Andamento
+204,2024-11-30 09:15:27.542265,Conformidade,Firewall,Qualys,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Fechado,GDPR,Invasão interna,Varejo,Aberto
+205,2025-08-05 17:29:11.542265,Análise de Vulnerabilidades,Sistema Operacional,QRadar,Tentativa de login falha,Ransomware,Log4j,Investigação,ISO 27001,Baixo,Tecnologia,Fechado
+206,2025-02-20 03:56:31.542265,Análise Forense,Sistema Operacional,OpenVAS,Download de arquivo malicioso,Phishing,CVE-2017-11882,Mitigação,LGPD,Alto,Governo,Fechado
+207,2025-04-13 18:41:28.542265,Risco Cibernético,Firewall,ELK Stack,Tentativa de login falha,Phishing,Nenhuma,Fechado,Nenhuma,Invasão interna,Financeiro,Fechado
+208,2024-11-01 17:57:30.542265,Risco Cibernético,Servidor,QRadar,Tentativa de login falha,Phishing,Shellshock,Investigação,Nenhuma,Invasão interna,Varejo,Em Andamento
+209,2025-04-28 13:20:18.542265,Conformidade,Firewall,QRadar,Tentativa de login falha,Ransomware,Log4j,Fechado,ISO 27001,Baixo,Saúde,Em Andamento
+210,2025-01-05 16:40:58.542265,Inteligência de Ameaças,Antivírus,Nessus,Acesso fora de horário,Malware,Nenhuma,Fechado,ISO 27001,DDoS,Saúde,Aberto
+211,2024-09-22 15:41:54.542265,Risco Cibernético,Servidor,ELK Stack,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Investigação,ISO 27001,Roubo de dados,Governo,Em Andamento
+212,2024-12-09 03:42:56.542265,Detecção de Ameaças,Sistema Operacional,Nessus,Acesso fora de horário,Malware,Nenhuma,Escalonado,Nenhuma,Alto,Tecnologia,Fechado
+213,2024-10-30 03:49:28.542265,Tendências e Incidentes,Firewall,Nessus,Tráfego de rede incomum,Ransomware,Heartbleed,Escalonado,ISO 27001,Phishing,Varejo,Fechado
+214,2025-07-30 21:50:48.542265,Análise de Vulnerabilidades,Firewall,ELK Stack,Tentativa de login falha,Ransomware,Shellshock,Investigação,ISO 27001,Roubo de dados,Tecnologia,Fechado
+215,2024-10-08 04:39:05.542265,Detecção de Ameaças,Sistema Operacional,Nessus,Tentativa de login falha,Ransomware,Shellshock,Escalonado,Nenhuma,Médio,Financeiro,Em Andamento
+216,2025-05-28 15:15:23.542265,Inteligência de Ameaças,Sistema Operacional,Qualys,Tráfego de rede incomum,Malware,Shellshock,Mitigação,GDPR,Phishing,Governo,Aberto
+217,2025-03-23 17:48:03.542265,Detecção de Ameaças,Antivírus,QRadar,Tentativa de login falha,Trojan Bancário,CVE-2017-11882,Fechado,ISO 27001,DDoS,Varejo,Em Andamento
+218,2025-06-09 04:11:57.542265,Detecção de Ameaças,Firewall,OpenVAS,Acesso fora de horário,Ransomware,CVE-2017-11882,Escalonado,GDPR,Alto,Governo,Em Andamento
+219,2025-04-05 05:21:18.542265,Análise de Vulnerabilidades,Antivírus,Qualys,Download de arquivo malicioso,Phishing,Nenhuma,Fechado,GDPR,Baixo,Financeiro,Aberto
+220,2025-01-12 14:06:34.542265,Conformidade,Antivírus,ELK Stack,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Mitigação,ISO 27001,Alto,Governo,Aberto
+221,2025-05-22 05:47:36.542265,Detecção de Ameaças,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Ransomware,Nenhuma,Mitigação,ISO 27001,Médio,Saúde,Fechado
+222,2025-06-28 23:53:32.542265,Tendências e Incidentes,Antivírus,OpenVAS,Tentativa de login falha,Ransomware,Shellshock,Mitigação,ISO 27001,Alto,Saúde,Em Andamento
+223,2024-09-26 14:05:18.542265,Tendências e Incidentes,Sistema Operacional,Splunk,Tentativa de login falha,Trojan Bancário,Nenhuma,Investigação,Nenhuma,Phishing,Financeiro,Aberto
+224,2025-03-09 03:19:18.542265,Eventos,Antivírus,QRadar,Download de arquivo malicioso,Ransomware,Log4j,Mitigação,GDPR,Médio,Governo,Aberto
+225,2025-05-14 07:22:56.542265,Conformidade,Antivírus,Splunk,Tráfego de rede incomum,Malware,CVE-2017-11882,Escalonado,ISO 27001,Médio,Governo,Fechado
+226,2024-12-05 16:59:43.542265,Tendências e Incidentes,Sistema Operacional,Nessus,Tráfego de rede incomum,Ransomware,Log4j,Mitigação,GDPR,Alto,Governo,Em Andamento
+227,2025-01-26 12:35:09.542265,Detecção de Ameaças,Servidor,Nessus,Acesso fora de horário,Phishing,Log4j,Escalonado,LGPD,Baixo,Governo,Em Andamento
+228,2025-07-22 18:51:00.542265,Conformidade,Sistema Operacional,OpenVAS,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Investigação,ISO 27001,Phishing,Varejo,Em Andamento
+229,2025-04-23 05:58:07.542265,Detecção de Ameaças,Sistema Operacional,Qualys,Acesso fora de horário,Phishing,Heartbleed,Escalonado,ISO 27001,Roubo de dados,Financeiro,Fechado
+230,2024-08-25 08:04:50.542265,Risco Cibernético,Firewall,OpenVAS,Tentativa de login falha,Phishing,Nenhuma,Mitigação,ISO 27001,Alto,Varejo,Em Andamento
+231,2024-11-30 11:41:28.542265,Risco Cibernético,Servidor,Splunk,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Fechado,GDPR,Alto,Financeiro,Aberto
+232,2024-10-01 03:29:10.542265,Inteligência de Ameaças,Sistema Operacional,Splunk,Acesso fora de horário,Malware,Log4j,Investigação,ISO 27001,Alto,Governo,Fechado
+233,2025-07-01 22:41:17.542265,Risco Cibernético,Sistema Operacional,Nessus,Tráfego de rede incomum,Phishing,Shellshock,Mitigação,Nenhuma,Invasão interna,Financeiro,Aberto
+234,2025-08-05 03:43:16.542265,Detecção de Ameaças,Firewall,OpenVAS,Tráfego de rede incomum,Ransomware,Shellshock,Investigação,GDPR,Baixo,Varejo,Em Andamento
+235,2024-08-28 02:56:20.542265,Análise Forense,Firewall,ELK Stack,Tráfego de rede incomum,Phishing,CVE-2017-11882,Mitigação,ISO 27001,Alto,Saúde,Fechado
+236,2024-12-17 19:43:18.542265,Inteligência de Ameaças,Antivírus,ELK Stack,Acesso fora de horário,Malware,Shellshock,Investigação,ISO 27001,Baixo,Varejo,Em Andamento
+237,2025-03-29 10:03:57.542265,Análise de Vulnerabilidades,Firewall,Nessus,Tentativa de login falha,Trojan Bancário,CVE-2017-11882,Escalonado,Nenhuma,Alto,Saúde,Fechado
+238,2025-01-12 04:20:46.542265,Análise Forense,Firewall,Nessus,Download de arquivo malicioso,Phishing,Nenhuma,Investigação,ISO 27001,Roubo de dados,Financeiro,Em Andamento
+239,2024-08-26 03:03:11.542265,Eventos,Sistema Operacional,Splunk,Tentativa de login falha,Trojan Bancário,Log4j,Mitigação,GDPR,Invasão interna,Tecnologia,Fechado
+240,2025-02-12 23:57:44.542265,Conformidade,Antivírus,ELK Stack,Tráfego de rede incomum,Phishing,Log4j,Investigação,GDPR,Médio,Varejo,Em Andamento
+241,2024-08-14 07:12:44.542265,Eventos,Servidor,Nessus,Acesso fora de horário,Malware,Shellshock,Mitigação,GDPR,Invasão interna,Tecnologia,Fechado
+242,2025-01-14 06:51:17.542265,Análise de Vulnerabilidades,Servidor,ELK Stack,Download de arquivo malicioso,Phishing,Nenhuma,Fechado,GDPR,DDoS,Financeiro,Em Andamento
+243,2025-07-31 20:31:33.542265,Inteligência de Ameaças,Firewall,OpenVAS,Acesso fora de horário,Ransomware,Nenhuma,Fechado,ISO 27001,Phishing,Varejo,Em Andamento
+244,2025-07-11 02:51:54.542265,Conformidade,Firewall,Nessus,Tráfego de rede incomum,Ransomware,Log4j,Mitigação,LGPD,Alto,Varejo,Fechado
+245,2025-01-15 14:25:35.542265,Conformidade,Antivírus,Qualys,Tráfego de rede incomum,Phishing,Heartbleed,Fechado,GDPR,Baixo,Governo,Fechado
+246,2024-11-07 18:36:10.542265,Tendências e Incidentes,Antivírus,OpenVAS,Tentativa de login falha,Phishing,Nenhuma,Investigação,ISO 27001,Invasão interna,Varejo,Fechado
+247,2025-06-18 06:03:03.542265,Tendências e Incidentes,Sistema Operacional,Qualys,Tráfego de rede incomum,Ransomware,Shellshock,Fechado,Nenhuma,Baixo,Varejo,Fechado
+248,2024-10-05 18:59:00.542265,Detecção de Ameaças,Antivírus,QRadar,Acesso fora de horário,Trojan Bancário,Heartbleed,Fechado,Nenhuma,Baixo,Governo,Aberto
+249,2024-12-16 06:14:17.542265,Tendências e Incidentes,Firewall,QRadar,Tentativa de login falha,Phishing,CVE-2017-11882,Escalonado,Nenhuma,Roubo de dados,Governo,Em Andamento
+250,2025-01-23 06:47:51.542265,Análise Forense,Servidor,ELK Stack,Tentativa de login falha,Trojan Bancário,Heartbleed,Fechado,Nenhuma,Roubo de dados,Governo,Em Andamento
+251,2025-05-13 20:51:23.542265,Análise Forense,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Trojan Bancário,Shellshock,Escalonado,ISO 27001,Roubo de dados,Saúde,Fechado
+252,2024-08-21 18:52:05.542265,Detecção de Ameaças,Firewall,OpenVAS,Tráfego de rede incomum,Malware,CVE-2017-11882,Mitigação,GDPR,DDoS,Governo,Aberto
+253,2025-07-08 01:21:52.542265,Inteligência de Ameaças,Antivírus,ELK Stack,Download de arquivo malicioso,Malware,Shellshock,Investigação,GDPR,Roubo de dados,Varejo,Em Andamento
+254,2024-12-31 04:09:58.542265,Risco Cibernético,Antivírus,Splunk,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Escalonado,Nenhuma,Alto,Governo,Em Andamento
+255,2025-06-10 07:04:16.542265,Análise Forense,Antivírus,Qualys,Tentativa de login falha,Phishing,Nenhuma,Mitigação,Nenhuma,Invasão interna,Varejo,Fechado
+256,2025-04-11 04:10:07.542265,Análise de Vulnerabilidades,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Escalonado,Nenhuma,DDoS,Financeiro,Aberto
+257,2024-12-30 15:38:40.542265,Tendências e Incidentes,Firewall,Nessus,Acesso fora de horário,Ransomware,Nenhuma,Escalonado,LGPD,DDoS,Financeiro,Aberto
+258,2025-05-27 22:27:05.542265,Eventos,Sistema Operacional,OpenVAS,Download de arquivo malicioso,Phishing,CVE-2017-11882,Mitigação,Nenhuma,Roubo de dados,Financeiro,Aberto
+259,2025-04-25 23:26:17.542265,Tendências e Incidentes,Firewall,Qualys,Download de arquivo malicioso,Phishing,CVE-2017-11882,Investigação,ISO 27001,Phishing,Financeiro,Aberto
+260,2025-02-26 16:42:47.542265,Análise Forense,Firewall,OpenVAS,Acesso fora de horário,Trojan Bancário,Nenhuma,Investigação,Nenhuma,Roubo de dados,Tecnologia,Fechado
+261,2025-06-07 16:09:34.542265,Risco Cibernético,Servidor,Splunk,Acesso fora de horário,Ransomware,Shellshock,Escalonado,GDPR,DDoS,Varejo,Fechado
+262,2024-09-24 14:37:03.542265,Análise de Vulnerabilidades,Antivírus,QRadar,Download de arquivo malicioso,Malware,Shellshock,Investigação,Nenhuma,Baixo,Financeiro,Em Andamento
+263,2024-10-24 12:52:36.542265,Eventos,Servidor,Splunk,Download de arquivo malicioso,Ransomware,Nenhuma,Escalonado,GDPR,Baixo,Governo,Em Andamento
+264,2024-12-29 09:42:34.542265,Análise de Vulnerabilidades,Antivírus,Qualys,Tentativa de login falha,Phishing,Heartbleed,Investigação,GDPR,Roubo de dados,Varejo,Aberto
+265,2024-10-23 05:56:03.542265,Análise Forense,Sistema Operacional,QRadar,Acesso fora de horário,Phishing,CVE-2017-11882,Fechado,Nenhuma,DDoS,Governo,Em Andamento
+266,2024-10-31 12:48:25.542265,Conformidade,Antivírus,Qualys,Tráfego de rede incomum,Trojan Bancário,Nenhuma,Mitigação,LGPD,Invasão interna,Varejo,Aberto
+267,2025-03-26 05:37:03.542265,Eventos,Antivírus,Splunk,Tráfego de rede incomum,Phishing,CVE-2017-11882,Escalonado,LGPD,DDoS,Varejo,Aberto
+268,2024-10-13 00:54:23.542265,Risco Cibernético,Servidor,Nessus,Tentativa de login falha,Phishing,Log4j,Fechado,Nenhuma,Roubo de dados,Varejo,Fechado
+269,2024-12-05 00:31:37.557912,Tendências e Incidentes,Firewall,Qualys,Acesso fora de horário,Ransomware,Heartbleed,Investigação,Nenhuma,DDoS,Financeiro,Fechado
+270,2025-06-19 20:53:49.557912,Análise de Vulnerabilidades,Antivírus,ELK Stack,Acesso fora de horário,Ransomware,Heartbleed,Escalonado,GDPR,Baixo,Governo,Em Andamento
+271,2024-10-12 15:38:46.557912,Eventos,Firewall,Nessus,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Investigação,ISO 27001,Phishing,Tecnologia,Em Andamento
+272,2024-09-12 11:53:53.557912,Conformidade,Antivírus,Nessus,Tentativa de login falha,Ransomware,Heartbleed,Mitigação,GDPR,Roubo de dados,Varejo,Em Andamento
+273,2025-06-17 00:48:30.557912,Análise de Vulnerabilidades,Firewall,Splunk,Tráfego de rede incomum,Phishing,CVE-2017-11882,Investigação,LGPD,Alto,Financeiro,Em Andamento
+274,2024-10-17 02:34:03.557912,Risco Cibernético,Sistema Operacional,Qualys,Tráfego de rede incomum,Phishing,Heartbleed,Escalonado,Nenhuma,Alto,Varejo,Em Andamento
+275,2025-01-30 23:14:20.557912,Eventos,Servidor,Nessus,Download de arquivo malicioso,Malware,CVE-2017-11882,Mitigação,LGPD,Invasão interna,Saúde,Fechado
+276,2025-01-31 17:27:03.557912,Tendências e Incidentes,Servidor,ELK Stack,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Fechado,LGPD,Phishing,Tecnologia,Em Andamento
+277,2024-09-03 00:28:12.557912,Detecção de Ameaças,Firewall,ELK Stack,Acesso fora de horário,Trojan Bancário,Log4j,Mitigação,ISO 27001,Médio,Varejo,Fechado
+278,2025-01-02 22:00:44.557912,Inteligência de Ameaças,Servidor,Qualys,Tentativa de login falha,Malware,Nenhuma,Escalonado,Nenhuma,Alto,Governo,Em Andamento
+279,2025-02-16 13:58:21.557912,Risco Cibernético,Sistema Operacional,Nessus,Tentativa de login falha,Phishing,Log4j,Investigação,Nenhuma,Baixo,Governo,Fechado
+280,2024-12-22 16:53:34.557912,Análise Forense,Firewall,Qualys,Tentativa de login falha,Malware,Heartbleed,Investigação,Nenhuma,DDoS,Tecnologia,Em Andamento
+281,2024-09-13 20:49:28.557912,Tendências e Incidentes,Servidor,Qualys,Tentativa de login falha,Ransomware,Log4j,Fechado,LGPD,Invasão interna,Financeiro,Em Andamento
+282,2024-11-19 07:58:09.557912,Conformidade,Sistema Operacional,QRadar,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Mitigação,ISO 27001,Baixo,Varejo,Aberto
+283,2025-06-27 21:37:22.557912,Análise Forense,Firewall,Nessus,Acesso fora de horário,Ransomware,Nenhuma,Mitigação,GDPR,Phishing,Saúde,Aberto
+284,2025-06-15 23:44:01.557912,Risco Cibernético,Antivírus,Splunk,Acesso fora de horário,Ransomware,Heartbleed,Fechado,Nenhuma,Invasão interna,Tecnologia,Em Andamento
+285,2025-06-14 05:24:00.557912,Detecção de Ameaças,Firewall,Splunk,Acesso fora de horário,Phishing,Heartbleed,Fechado,ISO 27001,Baixo,Saúde,Aberto
+286,2025-06-12 01:28:22.557912,Risco Cibernético,Antivírus,Nessus,Acesso fora de horário,Phishing,CVE-2017-11882,Fechado,LGPD,Invasão interna,Tecnologia,Fechado
+287,2025-01-31 12:30:51.557912,Conformidade,Firewall,Qualys,Tentativa de login falha,Malware,CVE-2017-11882,Escalonado,ISO 27001,Phishing,Financeiro,Aberto
+288,2025-06-17 12:01:52.557912,Conformidade,Sistema Operacional,OpenVAS,Acesso fora de horário,Trojan Bancário,Nenhuma,Investigação,LGPD,Médio,Financeiro,Fechado
+289,2025-01-08 00:42:50.557912,Análise de Vulnerabilidades,Antivírus,QRadar,Acesso fora de horário,Malware,Shellshock,Escalonado,ISO 27001,Phishing,Governo,Aberto
+290,2025-03-27 08:17:39.557912,Conformidade,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Ransomware,Log4j,Mitigação,GDPR,DDoS,Tecnologia,Aberto
+291,2024-11-26 20:45:54.557912,Conformidade,Firewall,OpenVAS,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Fechado,ISO 27001,Alto,Governo,Fechado
+292,2024-10-15 11:23:54.557912,Tendências e Incidentes,Servidor,ELK Stack,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Mitigação,ISO 27001,Baixo,Saúde,Em Andamento
+293,2025-06-07 20:54:01.557912,Risco Cibernético,Antivírus,Nessus,Acesso fora de horário,Ransomware,Log4j,Escalonado,GDPR,DDoS,Varejo,Fechado
+294,2025-06-16 04:14:48.557912,Eventos,Servidor,Qualys,Download de arquivo malicioso,Malware,CVE-2017-11882,Fechado,ISO 27001,DDoS,Financeiro,Fechado
+295,2025-07-29 04:52:22.557912,Conformidade,Servidor,Qualys,Tentativa de login falha,Ransomware,Shellshock,Investigação,LGPD,Médio,Financeiro,Aberto
+296,2025-05-22 18:42:43.557912,Risco Cibernético,Servidor,Nessus,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Escalonado,LGPD,Phishing,Varejo,Em Andamento
+297,2025-07-30 13:34:42.557912,Análise de Vulnerabilidades,Antivírus,OpenVAS,Tráfego de rede incomum,Ransomware,Heartbleed,Investigação,Nenhuma,Roubo de dados,Varejo,Em Andamento
+298,2025-06-27 14:39:33.557912,Conformidade,Servidor,QRadar,Tráfego de rede incomum,Phishing,CVE-2017-11882,Investigação,Nenhuma,Roubo de dados,Saúde,Aberto
+299,2025-04-26 20:27:12.557912,Análise de Vulnerabilidades,Antivírus,Splunk,Tráfego de rede incomum,Phishing,Log4j,Fechado,Nenhuma,Médio,Saúde,Fechado
+300,2025-01-07 18:50:23.557912,Análise de Vulnerabilidades,Sistema Operacional,ELK Stack,Tentativa de login falha,Phishing,CVE-2017-11882,Escalonado,LGPD,Roubo de dados,Tecnologia,Aberto
+301,2025-03-06 18:39:10.557912,Análise de Vulnerabilidades,Servidor,Qualys,Tráfego de rede incomum,Phishing,Shellshock,Investigação,LGPD,Baixo,Tecnologia,Em Andamento
+302,2024-08-22 23:50:18.557912,Análise de Vulnerabilidades,Firewall,Splunk,Tentativa de login falha,Ransomware,Nenhuma,Investigação,ISO 27001,Baixo,Financeiro,Aberto
+303,2025-02-02 09:29:05.557912,Detecção de Ameaças,Servidor,QRadar,Tráfego de rede incomum,Phishing,Shellshock,Mitigação,ISO 27001,Phishing,Governo,Aberto
+304,2025-05-13 07:00:43.557912,Análise Forense,Antivírus,Qualys,Tráfego de rede incomum,Trojan Bancário,CVE-2017-11882,Investigação,ISO 27001,Roubo de dados,Saúde,Aberto
+305,2025-05-17 00:50:31.557912,Análise Forense,Antivírus,Splunk,Acesso fora de horário,Phishing,CVE-2017-11882,Escalonado,ISO 27001,Médio,Saúde,Fechado
+306,2024-12-29 23:47:00.557912,Detecção de Ameaças,Servidor,Qualys,Acesso fora de horário,Malware,CVE-2017-11882,Mitigação,GDPR,Alto,Financeiro,Aberto
+307,2024-09-18 17:48:59.557912,Risco Cibernético,Servidor,QRadar,Acesso fora de horário,Malware,Nenhuma,Escalonado,Nenhuma,Phishing,Varejo,Aberto
+308,2025-04-13 01:22:17.557912,Inteligência de Ameaças,Sistema Operacional,Splunk,Acesso fora de horário,Phishing,Heartbleed,Investigação,LGPD,Roubo de dados,Saúde,Fechado
+309,2025-05-27 13:51:12.557912,Eventos,Firewall,Splunk,Tráfego de rede incomum,Phishing,Heartbleed,Fechado,Nenhuma,Baixo,Tecnologia,Fechado
+310,2024-10-09 12:19:27.557912,Análise Forense,Antivírus,Nessus,Acesso fora de horário,Malware,Shellshock,Mitigação,LGPD,Roubo de dados,Financeiro,Fechado
+311,2025-03-16 21:09:45.557912,Análise Forense,Firewall,Nessus,Acesso fora de horário,Malware,Shellshock,Mitigação,ISO 27001,Baixo,Tecnologia,Em Andamento
+312,2025-06-19 03:58:16.557912,Eventos,Firewall,Nessus,Download de arquivo malicioso,Phishing,CVE-2017-11882,Escalonado,Nenhuma,Médio,Governo,Em Andamento
+313,2025-03-15 02:58:09.557912,Conformidade,Sistema Operacional,QRadar,Download de arquivo malicioso,Malware,Nenhuma,Escalonado,GDPR,Médio,Saúde,Aberto
+314,2025-04-27 11:05:11.557912,Análise de Vulnerabilidades,Firewall,ELK Stack,Tráfego de rede incomum,Ransomware,Nenhuma,Escalonado,Nenhuma,DDoS,Saúde,Em Andamento
+315,2025-05-18 12:20:09.557912,Detecção de Ameaças,Firewall,Nessus,Tráfego de rede incomum,Phishing,Log4j,Escalonado,ISO 27001,Médio,Financeiro,Em Andamento
+316,2025-01-23 10:58:38.557912,Análise Forense,Sistema Operacional,Qualys,Download de arquivo malicioso,Trojan Bancário,Heartbleed,Mitigação,LGPD,Baixo,Governo,Em Andamento
+317,2024-10-12 15:30:18.557912,Risco Cibernético,Sistema Operacional,Nessus,Acesso fora de horário,Trojan Bancário,Nenhuma,Escalonado,LGPD,Alto,Tecnologia,Em Andamento
+318,2024-10-28 03:44:43.557912,Conformidade,Servidor,QRadar,Tentativa de login falha,Malware,Nenhuma,Investigação,LGPD,Phishing,Saúde,Aberto
+319,2024-10-21 01:27:22.557912,Eventos,Sistema Operacional,Nessus,Download de arquivo malicioso,Ransomware,Log4j,Fechado,GDPR,Alto,Governo,Em Andamento
+320,2025-05-04 18:33:49.557912,Análise de Vulnerabilidades,Antivírus,Nessus,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Mitigação,LGPD,Phishing,Financeiro,Fechado
+321,2024-11-10 17:02:26.557912,Eventos,Antivírus,ELK Stack,Download de arquivo malicioso,Phishing,Log4j,Mitigação,ISO 27001,Baixo,Governo,Fechado
+322,2025-05-19 03:17:24.557912,Conformidade,Firewall,QRadar,Acesso fora de horário,Phishing,Log4j,Investigação,GDPR,Invasão interna,Saúde,Fechado
+323,2025-04-10 02:54:26.557912,Risco Cibernético,Servidor,Qualys,Tráfego de rede incomum,Ransomware,Shellshock,Investigação,Nenhuma,Invasão interna,Governo,Fechado
+324,2025-05-12 12:33:34.557912,Detecção de Ameaças,Antivírus,OpenVAS,Tráfego de rede incomum,Malware,Log4j,Mitigação,GDPR,Invasão interna,Tecnologia,Fechado
+325,2025-07-13 05:52:16.557912,Conformidade,Antivírus,ELK Stack,Tentativa de login falha,Trojan Bancário,Log4j,Escalonado,Nenhuma,Alto,Saúde,Em Andamento
+326,2024-09-28 01:16:21.557912,Conformidade,Firewall,OpenVAS,Tentativa de login falha,Malware,Nenhuma,Mitigação,Nenhuma,Alto,Saúde,Em Andamento
+327,2025-05-03 17:06:02.557912,Detecção de Ameaças,Servidor,ELK Stack,Tráfego de rede incomum,Ransomware,Log4j,Fechado,Nenhuma,Roubo de dados,Tecnologia,Fechado
+328,2025-01-04 01:09:50.557912,Inteligência de Ameaças,Sistema Operacional,Splunk,Tentativa de login falha,Ransomware,Heartbleed,Escalonado,Nenhuma,Phishing,Varejo,Fechado
+329,2024-12-21 02:53:35.557912,Tendências e Incidentes,Sistema Operacional,Nessus,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Mitigação,LGPD,Médio,Financeiro,Fechado
+330,2024-10-18 02:29:55.557912,Inteligência de Ameaças,Firewall,Qualys,Download de arquivo malicioso,Ransomware,Log4j,Escalonado,Nenhuma,DDoS,Financeiro,Em Andamento
+331,2025-02-15 21:11:54.557912,Risco Cibernético,Firewall,Splunk,Download de arquivo malicioso,Trojan Bancário,Shellshock,Mitigação,ISO 27001,Roubo de dados,Governo,Fechado
+332,2024-08-24 14:51:24.557912,Análise de Vulnerabilidades,Firewall,QRadar,Tráfego de rede incomum,Malware,CVE-2017-11882,Mitigação,GDPR,Invasão interna,Tecnologia,Aberto
+333,2024-08-25 22:46:14.557912,Inteligência de Ameaças,Firewall,ELK Stack,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Investigação,GDPR,Alto,Governo,Fechado
+334,2024-08-28 01:44:11.557912,Risco Cibernético,Antivírus,ELK Stack,Tentativa de login falha,Phishing,Shellshock,Investigação,LGPD,DDoS,Saúde,Em Andamento
+335,2025-07-21 00:09:14.557912,Tendências e Incidentes,Sistema Operacional,Qualys,Tentativa de login falha,Malware,Shellshock,Investigação,LGPD,Phishing,Tecnologia,Aberto
+336,2025-07-14 08:00:08.557912,Risco Cibernético,Servidor,OpenVAS,Download de arquivo malicioso,Ransomware,Shellshock,Mitigação,GDPR,Baixo,Tecnologia,Fechado
+337,2024-09-10 23:57:54.557912,Eventos,Servidor,Nessus,Tentativa de login falha,Malware,Shellshock,Mitigação,LGPD,Médio,Tecnologia,Aberto
+338,2025-02-03 03:21:56.557912,Risco Cibernético,Sistema Operacional,Nessus,Tentativa de login falha,Ransomware,CVE-2017-11882,Mitigação,LGPD,Invasão interna,Saúde,Em Andamento
+339,2025-05-14 10:03:46.557912,Inteligência de Ameaças,Servidor,ELK Stack,Tentativa de login falha,Ransomware,Nenhuma,Escalonado,Nenhuma,Baixo,Varejo,Aberto
+340,2025-04-10 12:01:38.557912,Eventos,Servidor,OpenVAS,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Investigação,Nenhuma,Médio,Tecnologia,Fechado
+341,2025-06-28 09:25:59.557912,Detecção de Ameaças,Sistema Operacional,Qualys,Download de arquivo malicioso,Malware,Shellshock,Mitigação,ISO 27001,Invasão interna,Governo,Em Andamento
+342,2025-07-28 20:18:53.557912,Tendências e Incidentes,Antivírus,Splunk,Download de arquivo malicioso,Phishing,Nenhuma,Investigação,ISO 27001,Roubo de dados,Governo,Aberto
+343,2025-04-14 17:17:05.557912,Inteligência de Ameaças,Sistema Operacional,ELK Stack,Acesso fora de horário,Phishing,CVE-2017-11882,Fechado,ISO 27001,Alto,Saúde,Em Andamento
+344,2025-02-26 12:45:43.557912,Risco Cibernético,Sistema Operacional,Splunk,Tráfego de rede incomum,Phishing,CVE-2017-11882,Mitigação,GDPR,Roubo de dados,Saúde,Aberto
+345,2024-08-13 12:05:13.557912,Inteligência de Ameaças,Sistema Operacional,OpenVAS,Tráfego de rede incomum,Phishing,Log4j,Mitigação,ISO 27001,Médio,Financeiro,Em Andamento
+346,2024-12-04 10:12:25.557912,Análise de Vulnerabilidades,Antivírus,Nessus,Acesso fora de horário,Ransomware,Nenhuma,Mitigação,Nenhuma,Alto,Varejo,Fechado
+347,2024-12-05 19:24:35.557912,Eventos,Sistema Operacional,QRadar,Download de arquivo malicioso,Phishing,Nenhuma,Mitigação,LGPD,Alto,Saúde,Fechado
+348,2025-07-21 06:01:27.557912,Risco Cibernético,Sistema Operacional,QRadar,Acesso fora de horário,Phishing,Heartbleed,Mitigação,Nenhuma,Phishing,Financeiro,Em Andamento
+349,2025-06-15 17:49:29.557912,Eventos,Servidor,ELK Stack,Acesso fora de horário,Ransomware,Log4j,Escalonado,ISO 27001,Invasão interna,Tecnologia,Aberto
+350,2024-10-25 09:25:26.557912,Detecção de Ameaças,Sistema Operacional,OpenVAS,Tráfego de rede incomum,Phishing,Shellshock,Fechado,GDPR,Roubo de dados,Saúde,Em Andamento
+351,2025-07-03 20:16:51.557912,Tendências e Incidentes,Sistema Operacional,Nessus,Download de arquivo malicioso,Trojan Bancário,Log4j,Fechado,GDPR,Roubo de dados,Governo,Aberto
+352,2025-03-08 11:33:45.557912,Análise Forense,Servidor,Nessus,Tentativa de login falha,Malware,CVE-2017-11882,Mitigação,ISO 27001,Alto,Governo,Aberto
+353,2024-12-25 16:15:04.557912,Eventos,Firewall,Qualys,Tentativa de login falha,Phishing,Log4j,Mitigação,Nenhuma,Roubo de dados,Varejo,Fechado
+354,2025-02-06 12:07:36.557912,Análise Forense,Firewall,Nessus,Download de arquivo malicioso,Ransomware,Nenhuma,Investigação,LGPD,Roubo de dados,Tecnologia,Aberto
+355,2025-04-24 14:13:42.557912,Análise de Vulnerabilidades,Firewall,OpenVAS,Tentativa de login falha,Trojan Bancário,Shellshock,Mitigação,LGPD,DDoS,Varejo,Fechado
+356,2025-05-17 00:35:43.557912,Conformidade,Sistema Operacional,Qualys,Tráfego de rede incomum,Trojan Bancário,Log4j,Escalonado,LGPD,Alto,Tecnologia,Aberto
+357,2025-01-08 02:38:54.557912,Análise Forense,Firewall,QRadar,Tentativa de login falha,Phishing,Shellshock,Mitigação,GDPR,Alto,Varejo,Fechado
+358,2024-12-22 11:27:48.557912,Análise Forense,Antivírus,OpenVAS,Acesso fora de horário,Malware,Heartbleed,Escalonado,LGPD,Phishing,Saúde,Fechado
+359,2025-04-02 03:21:37.557912,Eventos,Sistema Operacional,Qualys,Acesso fora de horário,Phishing,Nenhuma,Mitigação,Nenhuma,Alto,Financeiro,Fechado
+360,2024-12-26 15:25:34.557912,Tendências e Incidentes,Servidor,Nessus,Acesso fora de horário,Trojan Bancário,Nenhuma,Mitigação,ISO 27001,DDoS,Tecnologia,Aberto
+361,2025-04-20 11:23:54.557912,Análise Forense,Antivírus,QRadar,Tentativa de login falha,Ransomware,Log4j,Investigação,ISO 27001,DDoS,Financeiro,Fechado
+362,2025-04-05 00:35:58.557912,Análise de Vulnerabilidades,Servidor,OpenVAS,Tentativa de login falha,Phishing,Shellshock,Investigação,LGPD,Alto,Saúde,Em Andamento
+363,2024-11-25 06:04:31.557912,Análise Forense,Antivírus,Qualys,Tentativa de login falha,Ransomware,Log4j,Escalonado,GDPR,Baixo,Saúde,Em Andamento
+364,2024-10-27 18:35:40.557912,Análise de Vulnerabilidades,Servidor,QRadar,Tentativa de login falha,Phishing,Heartbleed,Fechado,Nenhuma,Baixo,Saúde,Em Andamento
+365,2024-12-07 13:29:23.557912,Tendências e Incidentes,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Trojan Bancário,Log4j,Mitigação,LGPD,Médio,Financeiro,Em Andamento
+366,2025-02-19 21:20:52.557912,Conformidade,Firewall,QRadar,Acesso fora de horário,Malware,CVE-2017-11882,Mitigação,ISO 27001,Alto,Tecnologia,Fechado
+367,2025-01-21 01:20:48.557912,Risco Cibernético,Antivírus,ELK Stack,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Escalonado,Nenhuma,Invasão interna,Financeiro,Em Andamento
+368,2025-01-26 18:36:58.557912,Eventos,Firewall,Splunk,Download de arquivo malicioso,Phishing,Shellshock,Investigação,GDPR,Médio,Tecnologia,Em Andamento
+369,2024-09-05 23:15:15.557912,Conformidade,Sistema Operacional,OpenVAS,Acesso fora de horário,Malware,Nenhuma,Fechado,ISO 27001,Roubo de dados,Financeiro,Aberto
+370,2024-09-06 21:10:51.557912,Eventos,Sistema Operacional,QRadar,Acesso fora de horário,Trojan Bancário,Heartbleed,Escalonado,LGPD,Phishing,Saúde,Aberto
+371,2024-09-16 02:40:48.557912,Conformidade,Sistema Operacional,QRadar,Acesso fora de horário,Trojan Bancário,Log4j,Mitigação,Nenhuma,Alto,Varejo,Aberto
+372,2024-12-07 23:15:26.557912,Risco Cibernético,Servidor,ELK Stack,Tráfego de rede incomum,Ransomware,Heartbleed,Fechado,Nenhuma,Médio,Varejo,Aberto
+373,2025-03-31 00:53:10.557912,Análise Forense,Firewall,Qualys,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Mitigação,LGPD,Phishing,Varejo,Fechado
+374,2025-03-16 00:39:06.557912,Detecção de Ameaças,Antivírus,Qualys,Download de arquivo malicioso,Ransomware,Log4j,Escalonado,LGPD,Invasão interna,Financeiro,Aberto
+375,2025-05-02 17:16:05.557912,Análise Forense,Firewall,QRadar,Tentativa de login falha,Ransomware,Heartbleed,Mitigação,ISO 27001,Phishing,Saúde,Em Andamento
+376,2024-11-11 15:56:55.557912,Inteligência de Ameaças,Sistema Operacional,OpenVAS,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Escalonado,ISO 27001,DDoS,Tecnologia,Fechado
+377,2025-01-04 04:57:29.557912,Risco Cibernético,Antivírus,QRadar,Tentativa de login falha,Phishing,Shellshock,Fechado,LGPD,Médio,Varejo,Aberto
+378,2025-07-24 08:49:39.557912,Inteligência de Ameaças,Servidor,Qualys,Download de arquivo malicioso,Malware,Shellshock,Mitigação,GDPR,Médio,Governo,Fechado
+379,2025-07-11 18:54:52.557912,Risco Cibernético,Servidor,Splunk,Download de arquivo malicioso,Malware,Heartbleed,Mitigação,Nenhuma,Alto,Tecnologia,Em Andamento
+380,2025-01-15 21:14:34.557912,Eventos,Servidor,QRadar,Download de arquivo malicioso,Phishing,CVE-2017-11882,Fechado,LGPD,Roubo de dados,Governo,Fechado
+381,2024-12-12 14:34:12.557912,Inteligência de Ameaças,Servidor,OpenVAS,Download de arquivo malicioso,Phishing,Nenhuma,Fechado,Nenhuma,Invasão interna,Tecnologia,Em Andamento
+382,2025-05-18 05:48:30.557912,Risco Cibernético,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Malware,Heartbleed,Mitigação,LGPD,DDoS,Tecnologia,Fechado
+383,2025-03-01 23:55:39.557912,Inteligência de Ameaças,Antivírus,Splunk,Download de arquivo malicioso,Malware,Log4j,Fechado,LGPD,DDoS,Governo,Aberto
+384,2024-08-27 13:02:15.557912,Análise Forense,Firewall,Splunk,Download de arquivo malicioso,Ransomware,CVE-2017-11882,Fechado,Nenhuma,Baixo,Varejo,Fechado
+385,2024-09-08 07:42:14.557912,Análise de Vulnerabilidades,Sistema Operacional,QRadar,Download de arquivo malicioso,Phishing,Shellshock,Escalonado,ISO 27001,Alto,Financeiro,Fechado
+386,2024-09-07 09:04:42.557912,Detecção de Ameaças,Antivírus,QRadar,Acesso fora de horário,Ransomware,Log4j,Mitigação,LGPD,Phishing,Tecnologia,Fechado
+387,2025-03-09 19:11:54.557912,Eventos,Servidor,OpenVAS,Acesso fora de horário,Trojan Bancário,Log4j,Fechado,LGPD,Invasão interna,Tecnologia,Em Andamento
+388,2025-02-05 06:36:59.557912,Tendências e Incidentes,Antivírus,OpenVAS,Download de arquivo malicioso,Malware,Shellshock,Escalonado,ISO 27001,Alto,Financeiro,Em Andamento
+389,2025-06-22 03:00:21.557912,Detecção de Ameaças,Firewall,ELK Stack,Tentativa de login falha,Phishing,Nenhuma,Fechado,GDPR,DDoS,Financeiro,Aberto
+390,2024-10-14 18:17:31.557912,Inteligência de Ameaças,Sistema Operacional,Nessus,Acesso fora de horário,Trojan Bancário,Heartbleed,Escalonado,LGPD,DDoS,Tecnologia,Em Andamento
+391,2024-12-04 00:54:19.557912,Tendências e Incidentes,Servidor,Splunk,Tráfego de rede incomum,Trojan Bancário,Shellshock,Fechado,ISO 27001,Phishing,Saúde,Em Andamento
+392,2025-05-23 02:50:47.557912,Análise de Vulnerabilidades,Firewall,QRadar,Acesso fora de horário,Ransomware,Log4j,Mitigação,Nenhuma,Médio,Tecnologia,Em Andamento
+393,2024-11-26 12:13:40.557912,Inteligência de Ameaças,Sistema Operacional,Splunk,Download de arquivo malicioso,Malware,Heartbleed,Escalonado,ISO 27001,Médio,Financeiro,Aberto
+394,2025-04-01 09:28:10.557912,Análise de Vulnerabilidades,Servidor,Splunk,Tráfego de rede incomum,Trojan Bancário,CVE-2017-11882,Fechado,Nenhuma,Médio,Tecnologia,Em Andamento
+395,2025-01-03 06:09:53.557912,Conformidade,Antivírus,ELK Stack,Tráfego de rede incomum,Ransomware,Shellshock,Mitigação,Nenhuma,Invasão interna,Tecnologia,Em Andamento
+396,2025-02-02 03:10:20.557912,Tendências e Incidentes,Sistema Operacional,Nessus,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Escalonado,Nenhuma,Alto,Varejo,Fechado
+397,2025-03-13 08:04:32.557912,Eventos,Antivírus,OpenVAS,Tráfego de rede incomum,Phishing,Heartbleed,Investigação,Nenhuma,Phishing,Governo,Aberto
+398,2025-04-18 04:09:31.557912,Análise de Vulnerabilidades,Antivírus,OpenVAS,Tentativa de login falha,Phishing,Log4j,Escalonado,GDPR,Phishing,Financeiro,Aberto
+399,2025-06-19 12:21:38.557912,Inteligência de Ameaças,Sistema Operacional,QRadar,Tentativa de login falha,Phishing,Nenhuma,Investigação,GDPR,Phishing,Varejo,Em Andamento
+400,2025-03-29 20:27:58.557912,Detecção de Ameaças,Sistema Operacional,Nessus,Download de arquivo malicioso,Ransomware,Shellshock,Mitigação,GDPR,Phishing,Saúde,Aberto
+401,2025-06-24 03:25:26.557912,Detecção de Ameaças,Firewall,Qualys,Acesso fora de horário,Ransomware,Log4j,Mitigação,LGPD,Médio,Varejo,Aberto
+402,2025-01-23 00:16:16.557912,Inteligência de Ameaças,Sistema Operacional,QRadar,Acesso fora de horário,Ransomware,Log4j,Mitigação,LGPD,Médio,Tecnologia,Em Andamento
+403,2025-04-01 00:54:07.557912,Análise de Vulnerabilidades,Firewall,OpenVAS,Acesso fora de horário,Malware,Shellshock,Mitigação,Nenhuma,Baixo,Saúde,Em Andamento
+404,2024-11-16 10:52:28.557912,Eventos,Antivírus,Qualys,Acesso fora de horário,Trojan Bancário,Shellshock,Mitigação,ISO 27001,Alto,Tecnologia,Em Andamento
+405,2025-06-30 23:56:01.557912,Conformidade,Servidor,ELK Stack,Tentativa de login falha,Malware,Nenhuma,Fechado,ISO 27001,Baixo,Financeiro,Fechado
+406,2025-07-03 13:33:15.557912,Tendências e Incidentes,Firewall,Nessus,Tráfego de rede incomum,Trojan Bancário,Log4j,Fechado,LGPD,Roubo de dados,Financeiro,Fechado
+407,2024-10-30 19:32:56.557912,Risco Cibernético,Antivírus,Qualys,Tentativa de login falha,Phishing,Heartbleed,Investigação,ISO 27001,DDoS,Varejo,Fechado
+408,2025-04-29 01:44:39.557912,Análise de Vulnerabilidades,Firewall,ELK Stack,Acesso fora de horário,Malware,Heartbleed,Escalonado,ISO 27001,Médio,Financeiro,Em Andamento
+409,2024-12-28 09:35:34.557912,Inteligência de Ameaças,Sistema Operacional,OpenVAS,Acesso fora de horário,Ransomware,Log4j,Fechado,GDPR,Invasão interna,Financeiro,Em Andamento
+410,2025-03-26 09:35:30.557912,Detecção de Ameaças,Sistema Operacional,Splunk,Tentativa de login falha,Ransomware,CVE-2017-11882,Mitigação,Nenhuma,Invasão interna,Governo,Em Andamento
+411,2025-03-16 07:30:39.557912,Inteligência de Ameaças,Antivírus,Qualys,Acesso fora de horário,Ransomware,Nenhuma,Escalonado,LGPD,Baixo,Tecnologia,Em Andamento
+412,2024-08-23 01:11:33.557912,Risco Cibernético,Sistema Operacional,Nessus,Tráfego de rede incomum,Trojan Bancário,Log4j,Escalonado,GDPR,Invasão interna,Financeiro,Fechado
+413,2024-11-10 14:59:40.557912,Tendências e Incidentes,Firewall,Qualys,Download de arquivo malicioso,Malware,Log4j,Mitigação,LGPD,Invasão interna,Financeiro,Em Andamento
+414,2024-12-11 09:22:51.557912,Eventos,Firewall,Nessus,Acesso fora de horário,Malware,Shellshock,Escalonado,GDPR,Invasão interna,Saúde,Aberto
+415,2024-11-12 15:14:55.557912,Detecção de Ameaças,Antivírus,Splunk,Acesso fora de horário,Ransomware,Shellshock,Fechado,ISO 27001,Alto,Varejo,Em Andamento
+416,2025-03-21 11:12:08.557912,Inteligência de Ameaças,Sistema Operacional,Nessus,Tentativa de login falha,Malware,Log4j,Fechado,ISO 27001,Médio,Varejo,Aberto
+417,2025-04-08 09:34:48.557912,Análise de Vulnerabilidades,Antivírus,Nessus,Tentativa de login falha,Phishing,Log4j,Escalonado,ISO 27001,DDoS,Financeiro,Fechado
+418,2024-12-15 02:35:05.557912,Inteligência de Ameaças,Firewall,Qualys,Download de arquivo malicioso,Malware,Log4j,Mitigação,ISO 27001,Baixo,Varejo,Aberto
+419,2024-12-15 02:59:53.557912,Análise de Vulnerabilidades,Sistema Operacional,QRadar,Acesso fora de horário,Trojan Bancário,Heartbleed,Fechado,Nenhuma,DDoS,Governo,Em Andamento
+420,2024-10-05 23:30:28.557912,Análise Forense,Servidor,Qualys,Download de arquivo malicioso,Phishing,Heartbleed,Mitigação,GDPR,Médio,Tecnologia,Fechado
+421,2025-07-12 07:06:33.557912,Análise Forense,Antivírus,QRadar,Tentativa de login falha,Trojan Bancário,CVE-2017-11882,Investigação,Nenhuma,Invasão interna,Saúde,Aberto
+422,2024-09-18 12:26:19.557912,Tendências e Incidentes,Sistema Operacional,Splunk,Tentativa de login falha,Malware,Log4j,Mitigação,ISO 27001,DDoS,Financeiro,Fechado
+423,2025-05-24 23:42:05.557912,Risco Cibernético,Firewall,Splunk,Download de arquivo malicioso,Phishing,Log4j,Fechado,Nenhuma,Invasão interna,Governo,Em Andamento
+424,2024-11-17 02:35:42.557912,Inteligência de Ameaças,Antivírus,Nessus,Tentativa de login falha,Ransomware,Shellshock,Mitigação,GDPR,DDoS,Financeiro,Em Andamento
+425,2025-04-04 02:20:36.557912,Conformidade,Antivírus,OpenVAS,Tentativa de login falha,Phishing,Log4j,Fechado,Nenhuma,DDoS,Saúde,Aberto
+426,2024-08-15 06:41:52.557912,Análise de Vulnerabilidades,Antivírus,Qualys,Download de arquivo malicioso,Malware,Shellshock,Mitigação,GDPR,Invasão interna,Governo,Fechado
+427,2024-10-25 05:43:06.557912,Conformidade,Firewall,OpenVAS,Tentativa de login falha,Malware,Log4j,Investigação,GDPR,Roubo de dados,Governo,Em Andamento
+428,2025-04-26 08:15:29.557912,Análise Forense,Sistema Operacional,ELK Stack,Acesso fora de horário,Phishing,Log4j,Investigação,LGPD,Roubo de dados,Governo,Aberto
+429,2024-10-04 07:29:33.557912,Eventos,Firewall,Nessus,Acesso fora de horário,Trojan Bancário,Log4j,Investigação,Nenhuma,Baixo,Financeiro,Fechado
+430,2025-02-08 04:13:30.557912,Inteligência de Ameaças,Firewall,OpenVAS,Download de arquivo malicioso,Ransomware,Nenhuma,Fechado,LGPD,Invasão interna,Varejo,Fechado
+431,2025-04-06 20:10:18.557912,Inteligência de Ameaças,Firewall,QRadar,Download de arquivo malicioso,Ransomware,Shellshock,Mitigação,GDPR,Invasão interna,Financeiro,Fechado
+432,2024-10-08 20:13:12.557912,Análise Forense,Sistema Operacional,QRadar,Tráfego de rede incomum,Malware,Shellshock,Escalonado,ISO 27001,Baixo,Varejo,Aberto
+433,2024-10-24 15:26:06.557912,Risco Cibernético,Firewall,Nessus,Tentativa de login falha,Trojan Bancário,Nenhuma,Mitigação,ISO 27001,Baixo,Varejo,Fechado
+434,2024-09-23 06:24:59.557912,Tendências e Incidentes,Firewall,Splunk,Tráfego de rede incomum,Malware,Log4j,Fechado,LGPD,Roubo de dados,Tecnologia,Aberto
+435,2024-10-07 04:01:17.557912,Inteligência de Ameaças,Sistema Operacional,ELK Stack,Download de arquivo malicioso,Ransomware,Nenhuma,Fechado,LGPD,Invasão interna,Financeiro,Aberto
+436,2024-09-27 14:03:32.557912,Eventos,Servidor,OpenVAS,Tráfego de rede incomum,Ransomware,Heartbleed,Investigação,Nenhuma,Phishing,Tecnologia,Aberto
+437,2025-01-05 21:53:51.557912,Inteligência de Ameaças,Antivírus,Nessus,Acesso fora de horário,Ransomware,Heartbleed,Escalonado,Nenhuma,Roubo de dados,Varejo,Fechado
+438,2024-10-08 23:21:52.557912,Detecção de Ameaças,Firewall,QRadar,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Mitigação,Nenhuma,Baixo,Varejo,Aberto
+439,2024-08-26 04:45:23.557912,Análise Forense,Servidor,QRadar,Tráfego de rede incomum,Malware,Log4j,Investigação,ISO 27001,Médio,Saúde,Em Andamento
+440,2024-09-30 04:40:12.557912,Análise de Vulnerabilidades,Sistema Operacional,Nessus,Acesso fora de horário,Malware,Log4j,Fechado,GDPR,Alto,Saúde,Em Andamento
+441,2024-10-03 02:45:25.557912,Eventos,Sistema Operacional,OpenVAS,Download de arquivo malicioso,Trojan Bancário,CVE-2017-11882,Investigação,ISO 27001,Roubo de dados,Tecnologia,Em Andamento
+442,2025-04-02 08:24:49.557912,Tendências e Incidentes,Servidor,Splunk,Acesso fora de horário,Phishing,Nenhuma,Escalonado,LGPD,Roubo de dados,Saúde,Fechado
+443,2025-06-02 17:51:35.557912,Risco Cibernético,Sistema Operacional,Qualys,Tentativa de login falha,Phishing,Nenhuma,Mitigação,ISO 27001,Baixo,Saúde,Fechado
+444,2025-06-14 05:13:20.557912,Inteligência de Ameaças,Servidor,ELK Stack,Tentativa de login falha,Ransomware,CVE-2017-11882,Investigação,Nenhuma,Roubo de dados,Financeiro,Aberto
+445,2025-02-11 16:38:21.557912,Conformidade,Firewall,Nessus,Download de arquivo malicioso,Malware,Heartbleed,Investigação,ISO 27001,DDoS,Financeiro,Fechado
+446,2025-06-27 20:59:49.557912,Eventos,Firewall,Nessus,Download de arquivo malicioso,Phishing,Heartbleed,Investigação,Nenhuma,Invasão interna,Tecnologia,Fechado
+447,2025-06-21 04:10:33.557912,Detecção de Ameaças,Sistema Operacional,Nessus,Download de arquivo malicioso,Malware,Nenhuma,Mitigação,LGPD,Médio,Governo,Em Andamento
+448,2025-03-23 03:02:54.557912,Inteligência de Ameaças,Antivírus,QRadar,Tráfego de rede incomum,Phishing,CVE-2017-11882,Mitigação,GDPR,Roubo de dados,Governo,Em Andamento
+449,2025-06-20 11:10:37.557912,Análise Forense,Firewall,Nessus,Acesso fora de horário,Ransomware,Shellshock,Mitigação,Nenhuma,Médio,Saúde,Em Andamento
+450,2024-10-29 01:31:57.557912,Análise de Vulnerabilidades,Sistema Operacional,OpenVAS,Tráfego de rede incomum,Phishing,Shellshock,Fechado,LGPD,Phishing,Financeiro,Em Andamento
+451,2025-04-27 16:54:45.557912,Eventos,Antivírus,Qualys,Tentativa de login falha,Trojan Bancário,Shellshock,Escalonado,GDPR,Invasão interna,Saúde,Em Andamento
+452,2024-12-09 03:34:03.557912,Análise Forense,Servidor,Qualys,Tráfego de rede incomum,Malware,Shellshock,Mitigação,GDPR,Phishing,Saúde,Fechado
+453,2025-01-07 06:30:36.557912,Inteligência de Ameaças,Servidor,Splunk,Acesso fora de horário,Malware,Shellshock,Escalonado,GDPR,Médio,Governo,Em Andamento
+454,2025-05-26 23:45:13.557912,Tendências e Incidentes,Servidor,Qualys,Download de arquivo malicioso,Trojan Bancário,Nenhuma,Mitigação,LGPD,Médio,Financeiro,Fechado
+455,2024-09-03 20:40:36.557912,Inteligência de Ameaças,Servidor,Splunk,Tentativa de login falha,Malware,Heartbleed,Mitigação,Nenhuma,DDoS,Tecnologia,Fechado
+456,2025-04-04 20:53:15.557912,Detecção de Ameaças,Sistema Operacional,ELK Stack,Acesso fora de horário,Ransomware,Nenhuma,Escalonado,Nenhuma,Baixo,Tecnologia,Em Andamento
+457,2024-12-16 18:39:37.557912,Inteligência de Ameaças,Antivírus,QRadar,Acesso fora de horário,Ransomware,Nenhuma,Mitigação,GDPR,DDoS,Saúde,Aberto
+458,2025-03-20 12:17:49.557912,Tendências e Incidentes,Firewall,QRadar,Tráfego de rede incomum,Trojan Bancário,Nenhuma,Fechado,LGPD,Médio,Varejo,Fechado
+459,2024-11-21 22:17:22.557912,Conformidade,Antivírus,OpenVAS,Tráfego de rede incomum,Malware,Nenhuma,Investigação,GDPR,DDoS,Saúde,Fechado
+460,2025-05-12 03:45:29.557912,Conformidade,Firewall,QRadar,Download de arquivo malicioso,Ransomware,Heartbleed,Fechado,GDPR,Baixo,Governo,Em Andamento
+461,2024-12-13 08:28:38.557912,Análise Forense,Sistema Operacional,Qualys,Acesso fora de horário,Malware,Nenhuma,Investigação,GDPR,Roubo de dados,Varejo,Fechado
+462,2025-02-28 05:53:26.557912,Risco Cibernético,Firewall,Qualys,Tentativa de login falha,Phishing,Shellshock,Mitigação,LGPD,Phishing,Financeiro,Aberto
+463,2024-10-27 07:04:02.557912,Inteligência de Ameaças,Sistema Operacional,ELK Stack,Acesso fora de horário,Trojan Bancário,Heartbleed,Investigação,ISO 27001,Médio,Varejo,Aberto
+464,2024-10-19 23:41:45.557912,Inteligência de Ameaças,Antivírus,Qualys,Tentativa de login falha,Ransomware,CVE-2017-11882,Fechado,ISO 27001,Baixo,Varejo,Aberto
+465,2025-03-21 08:58:59.557912,Risco Cibernético,Servidor,Qualys,Download de arquivo malicioso,Ransomware,Heartbleed,Fechado,Nenhuma,DDoS,Governo,Em Andamento
+466,2025-03-21 04:10:56.557912,Detecção de Ameaças,Antivírus,OpenVAS,Download de arquivo malicioso,Malware,Heartbleed,Mitigação,Nenhuma,DDoS,Varejo,Fechado
+467,2024-10-20 22:41:46.557912,Eventos,Sistema Operacional,ELK Stack,Acesso fora de horário,Malware,Heartbleed,Escalonado,LGPD,Roubo de dados,Varejo,Aberto
+468,2025-07-07 04:03:18.557912,Conformidade,Servidor,OpenVAS,Tentativa de login falha,Ransomware,Heartbleed,Investigação,GDPR,Phishing,Financeiro,Em Andamento
+469,2025-06-06 08:30:03.557912,Conformidade,Sistema Operacional,Nessus,Acesso fora de horário,Ransomware,Heartbleed,Mitigação,Nenhuma,Phishing,Saúde,Aberto
+470,2025-04-19 13:41:18.557912,Análise de Vulnerabilidades,Antivírus,Splunk,Download de arquivo malicioso,Malware,Shellshock,Escalonado,Nenhuma,Médio,Financeiro,Fechado
+471,2025-07-12 20:11:42.557912,Conformidade,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Malware,Log4j,Mitigação,LGPD,Roubo de dados,Financeiro,Aberto
+472,2025-07-31 03:00:12.557912,Análise Forense,Servidor,ELK Stack,Tentativa de login falha,Ransomware,Heartbleed,Mitigação,LGPD,Baixo,Saúde,Aberto
+473,2025-03-21 11:49:02.557912,Análise Forense,Sistema Operacional,Nessus,Tentativa de login falha,Trojan Bancário,Heartbleed,Fechado,LGPD,Invasão interna,Governo,Fechado
+474,2025-07-25 01:03:35.557912,Risco Cibernético,Sistema Operacional,OpenVAS,Tentativa de login falha,Trojan Bancário,CVE-2017-11882,Investigação,GDPR,Médio,Tecnologia,Fechado
+475,2025-05-15 09:03:22.557912,Conformidade,Sistema Operacional,ELK Stack,Tráfego de rede incomum,Phishing,Heartbleed,Escalonado,ISO 27001,Phishing,Tecnologia,Fechado
+476,2024-11-01 11:59:38.557912,Análise de Vulnerabilidades,Antivírus,QRadar,Acesso fora de horário,Malware,Log4j,Investigação,Nenhuma,Roubo de dados,Governo,Em Andamento
+477,2025-03-10 21:44:19.557912,Tendências e Incidentes,Antivírus,OpenVAS,Tráfego de rede incomum,Malware,Shellshock,Investigação,ISO 27001,DDoS,Varejo,Aberto
+478,2025-01-21 09:26:29.557912,Análise Forense,Firewall,Splunk,Tentativa de login falha,Malware,Log4j,Escalonado,LGPD,Phishing,Varejo,Aberto
+479,2024-08-14 19:28:04.557912,Detecção de Ameaças,Antivírus,OpenVAS,Tentativa de login falha,Trojan Bancário,Heartbleed,Investigação,Nenhuma,DDoS,Saúde,Aberto
+480,2024-09-02 22:22:56.557912,Detecção de Ameaças,Sistema Operacional,Qualys,Acesso fora de horário,Malware,Nenhuma,Mitigação,LGPD,Roubo de dados,Saúde,Em Andamento
+481,2024-10-27 23:54:53.557912,Análise de Vulnerabilidades,Servidor,OpenVAS,Tráfego de rede incomum,Ransomware,Log4j,Mitigação,ISO 27001,DDoS,Governo,Fechado
+482,2025-01-09 07:58:45.557912,Análise Forense,Servidor,ELK Stack,Acesso fora de horário,Trojan Bancário,CVE-2017-11882,Investigação,ISO 27001,Invasão interna,Financeiro,Aberto
+483,2025-06-16 15:59:22.557912,Tendências e Incidentes,Firewall,Splunk,Download de arquivo malicioso,Malware,Heartbleed,Mitigação,Nenhuma,Invasão interna,Tecnologia,Fechado
+484,2025-07-18 09:47:56.557912,Inteligência de Ameaças,Antivírus,QRadar,Tentativa de login falha,Trojan Bancário,Nenhuma,Escalonado,ISO 27001,DDoS,Tecnologia,Em Andamento
+485,2025-04-17 18:44:34.557912,Análise Forense,Antivírus,Splunk,Acesso fora de horário,Trojan Bancário,Heartbleed,Fechado,ISO 27001,DDoS,Tecnologia,Em Andamento
+486,2024-10-05 02:41:21.557912,Eventos,Servidor,Nessus,Download de arquivo malicioso,Malware,Nenhuma,Investigação,GDPR,Roubo de dados,Varejo,Aberto
+487,2024-11-19 22:52:07.557912,Risco Cibernético,Servidor,ELK Stack,Download de arquivo malicioso,Ransomware,Log4j,Mitigação,Nenhuma,Invasão interna,Tecnologia,Aberto
+488,2024-08-10 09:35:33.557912,Detecção de Ameaças,Firewall,ELK Stack,Acesso fora de horário,Phishing,Heartbleed,Investigação,Nenhuma,Roubo de dados,Saúde,Aberto
+489,2025-04-15 12:10:04.557912,Tendências e Incidentes,Antivírus,QRadar,Tentativa de login falha,Malware,Shellshock,Fechado,LGPD,Roubo de dados,Financeiro,Fechado
+490,2025-01-20 17:17:36.557912,Detecção de Ameaças,Antivírus,Qualys,Tentativa de login falha,Phishing,CVE-2017-11882,Mitigação,LGPD,Invasão interna,Financeiro,Fechado
+491,2025-05-05 13:07:52.557912,Risco Cibernético,Antivírus,Splunk,Tráfego de rede incomum,Trojan Bancário,Heartbleed,Mitigação,Nenhuma,Médio,Financeiro,Fechado
+492,2024-12-16 15:55:10.557912,Análise de Vulnerabilidades,Sistema Operacional,QRadar,Acesso fora de horário,Phishing,CVE-2017-11882,Escalonado,GDPR,Invasão interna,Financeiro,Aberto
+493,2024-09-10 20:38:59.557912,Conformidade,Firewall,ELK Stack,Download de arquivo malicioso,Ransomware,Nenhuma,Escalonado,ISO 27001,Roubo de dados,Financeiro,Em Andamento
+494,2025-05-18 14:06:29.557912,Tendências e Incidentes,Servidor,QRadar,Acesso fora de horário,Phishing,Log4j,Investigação,GDPR,Baixo,Financeiro,Aberto
+495,2025-06-03 14:15:35.557912,Inteligência de Ameaças,Sistema Operacional,Nessus,Tráfego de rede incomum,Ransomware,CVE-2017-11882,Escalonado,ISO 27001,Invasão interna,Saúde,Aberto
+496,2025-02-15 17:24:21.557912,Inteligência de Ameaças,Servidor,Splunk,Download de arquivo malicioso,Malware,Nenhuma,Fechado,ISO 27001,Invasão interna,Tecnologia,Aberto
+497,2024-12-29 20:18:22.557912,Análise de Vulnerabilidades,Firewall,Qualys,Tráfego de rede incomum,Malware,Log4j,Fechado,ISO 27001,Baixo,Saúde,Fechado
+498,2024-08-15 04:05:47.557912,Tendências e Incidentes,Firewall,QRadar,Tráfego de rede incomum,Trojan Bancário,CVE-2017-11882,Mitigação,ISO 27001,Phishing,Governo,Aberto
+499,2025-01-22 08:22:06.557912,Análise Forense,Servidor,Qualys,Download de arquivo malicioso,Malware,CVE-2017-11882,Fechado,LGPD,Roubo de dados,Financeiro,Fechado
+500,2025-07-19 17:57:04.557912,Conformidade,Antivírus,Nessus,Acesso fora de horário,Ransomware,CVE-2017-11882,Escalonado,GDPR,Roubo de dados,Saúde,Em Andamento
